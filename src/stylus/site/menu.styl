@@ -1,0 +1,43 @@
+/*  
+==========================================================================
+Global Navigation Menu
+==========================================================================
+*/
+
+#menu
+    position fixed
+    top 0
+    left 0
+    height 45px
+    z-index 100
+    width 100%
+    padding 0
+    margin 0
+
+#menu li
+    display inline-block
+    margin 10px
+
+#menu li.active
+    border-bottom 1px solid $menu-active-color
+
+#menu li a
+    text-decoration none
+    font-size 14px
+    color $menu-normal-color
+
+#menu li a:hover
+    color $menu-hover-color
+
+#menu li.active a:hover
+    color $menu-active-hover-color
+
+#menu li:hover
+    border-bottom 1px solid $menu-hover-color
+
+#menu li a
+#menu li.active a
+    display block
+
+#menu li.active a
+    color $menu-active-color
