@@ -4,25 +4,63 @@ Global Navigation Menu
 ==========================================================================
 */
 
+#nav-background
+    visibility hidden
+    opacity 0
+    position fixed
+    height 45px
+    width 100%
+    top 0px
+    z-index 99
+    -webkit-transition all 0.6s ease-out
+    -moz-transition all 0.6s ease-out
+    -o-transition all 0.6s ease-out
+    transition all 0.6s ease-out
+
+.nav-background-visible
+    visibility visible !important
+    opacity 1 !important
+    background-color rgba(255,255,255,0.96)
+
 #menu
     position absolute
     z-index 101
-    top 155px
-    left 20px
-    right 20px
+    top 90px
+    left 0px
+    right 0px
     height 45px
-    -webkit-transition all 0.7s ease-out
-    -moz-transition all 0.7s ease-out
-    -o-transition all 0.7s ease-out
-    transition all 0.7s ease-out
+    margin 0
+    padding 0
+    line-height 44px
+    -webkit-transition all 0.15s ease-out
+    -moz-transition all 0.15s ease-out
+    -o-transition all 0.15s ease-out
+    transition all 0.15s ease-out
 
 .menu-fixed
-  position fixed !important
-  top 15px !important
+    position fixed !important
+    top 0px !important
+
+#anchor-home
+    width 150px
+    text-indent 0px
+
+.anchor-home-invisible
+    width 0px !important
+    height 0 !important
+    text-indent -9999px !important
+    margin: 0 !important;
 
 #menu li
     display inline-block
-    margin 10px
+    height 45px
+    margin 0px 15px
+    overflow hidden
+    -webkit-transition all 0.15s ease-out
+    -moz-transition all 0.15s ease-out
+    -o-transition all 0.15s ease-out
+    transition all 0.15s ease-out
+
 
 #menu li.active
     border-bottom 1px solid $menu-active-color
