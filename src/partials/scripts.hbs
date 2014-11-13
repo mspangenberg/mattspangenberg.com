@@ -14,19 +14,41 @@
 <!-- Bootstrap v3.2.0 JS -->
 <script src="vendor/bootstrap-v3.2.0-dist/js/bootstrap.min.js"></script>
 
+<!-- Slim Scroll --> 
+<script type="text/javascript" src="js/slim-scroll/jquery.slimscroll.min.js"></script>
+
 <!-- Flat Surface Shader -->
 <script src="js/flat-surface-shader/fss.min.js"></script>
 <script src="js/flat-surface-shader/example.js"></script>
 
-<!-- Full Page JS -->
+<!-- Full Page -->
 <script src="js/full-page/jquery.fullPage.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
-			sectionsColor: ['#333333', '#666666', '#212121', '#727272', '#ff0000'],
-			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-			menu: '#menu'
-		});
+			//'verticalCentered': false,
+			'css3': true,
+			'scrollOverflow': true,
+			'menu': '#menu',
+			'sectionsColor': ['#333333', '#666666', '#212121', '#727272', '#ff0000'],
+			'anchors': ['home', 'secondPage', '3rdPage', '4thpage'],
 
+			// 'onLeave': function(index, nextIndex, direction){
+			// 	$('#menu').toggleClass('menu-fixed', (index == 0 && direction == 'down' ) || (index == 1 && direction == 'up'));
+			// },
+
+			'afterLoad': function(anchorLink, index){
+				if(index == 3){
+					$('#iphone2').addClass('active');
+				}
+			},
+
+			'onLeave': function(index, nextIndex, direction){
+				$('#menu').toggleClass('menu-fixed', (index == 1 && direction == 'down' ) || (index == 2 && direction == 'down' ) || (index == 3 && direction == 'down' ) || (index == 4 && direction == 'up') || (index == 3 && direction == 'up'));
+				$('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
+			}
+
+
+		});
 	});
 </script>

@@ -5,14 +5,20 @@ Global Navigation Menu
 */
 
 #menu
-    position fixed
-    top 0
-    left 0
+    position absolute
+    z-index 101
+    top 155px
+    left 20px
+    right 20px
     height 45px
-    z-index 100
-    width 100%
-    padding 0
-    margin 0
+    -webkit-transition all 0.7s ease-out
+    -moz-transition all 0.7s ease-out
+    -o-transition all 0.7s ease-out
+    transition all 0.7s ease-out
+
+.menu-fixed
+  position fixed !important
+  top 15px !important
 
 #menu li
     display inline-block
