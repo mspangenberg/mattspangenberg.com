@@ -32,12 +32,30 @@
 			'menu': '#menu',
 			'sectionsColor': ['#333333', '#666666', '#212121', '#727272', '#ff0000'],
 			'anchors': ['home', 'secondPage', '3rdPage', '4thpage'],
+			'slidesNavigation': true,
+
+			'afterRender': function(){
+				$('#angle-down').addClass('animated bounce');
+			},
 
 			'afterLoad': function(anchorLink, index){
 				if(index == 1){
-					$('#nav-background').removeClass('nav-background-visible');
-					$('#menu').removeClass('menu-fixed');
-					$('#anchor-home').addClass('anchor-home-invisible');
+					$('#angle-down').addClass('animated bounce');
+					$('#section0-centent').removeClass('fadeOut');
+					$('#section0-centent').addClass('fadeIn');
+
+					var delay = setTimeout(function(){
+						$('#anchor-home').addClass('anchor-home-invisible');
+				    }, 30)
+
+				    var delay = setTimeout(function(){
+				    	$('#nav-background').removeClass('nav-background-visible');
+				    }, 705)
+
+					var delay = setTimeout(function(){
+						$('#menu').removeClass('menu-fixed');
+				    }, 705)
+
 				}
 				else if(index == 3){
 					$('#iphone2').addClass('active');
@@ -47,8 +65,15 @@
 			'onLeave': function(index, nextIndex, direction){
 				$('#menu').toggleClass('menu-fixed', (index == 1 && direction == 'down' ) || (index == 2 && direction == 'down' ) || (index == 3 && direction == 'down' ) || (index == 4 && direction == 'up') || (index == 3 && direction == 'up'));
 				$('#nav-background').toggleClass('nav-background-visible', (index == 1 && direction == 'down' ) || (index == 2 && direction == 'down' ) || (index == 3 && direction == 'down' ) || (index == 4 && direction == 'up') || (index == 3 && direction == 'up'));
-				$('#anchor-home').removeClass('anchor-home-invisible');
+				$('#angle-down').removeClass('animated bounce');
 				$('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
+
+				$('#section0-centent').addClass('animated fadeOut', (index == 1 && direction == 'down' ) || (index == 2 && direction == 'down' ) || (index == 3 && direction == 'down' ) || (index == 4 && direction == 'up') || (index == 3 && direction == 'up'));
+
+				var delay = setTimeout(function(){
+						$('#anchor-home').removeClass('anchor-home-invisible');
+						$('#anchor-home').addClass('animated fadeInLeft');
+				    }, 705)
 			}
 
 		});

@@ -5,27 +5,35 @@ Global Navigation Menu
 */
 
 #nav-background
-    visibility hidden
-    opacity 0
+    height 0
+    background-color transparent
+    border-left 360px solid transparent
+    border-right 360px solid transparent
+    border-top 150px solid rgba(255,255,255,0.96)
     position fixed
-    height 45px
-    width 100%
+    width 0
     top 0px
+    right 0
+    left 0
     z-index 99
-    -webkit-transition all 0.6s ease-out
-    -moz-transition all 0.6s ease-out
-    -o-transition all 0.6s ease-out
-    transition all 0.6s ease-out
+    -webkit-transition all 0.3s ease-out
+    -moz-transition all 0.3s ease-out
+    -o-transition all 0.3s ease-out
+    transition all 0.3s ease-out
+    margin 0 auto
 
 .nav-background-visible
-    visibility visible !important
-    opacity 1 !important
-    background-color rgba(255,255,255,0.96)
+    background-color rgba(255,255,255,0.96) !important
+    height 45px !important
+    width 100% !important
+    border-left 0px !important
+    border-right 0px !important
+    border-top 0px !important
 
 #menu
     position absolute
     z-index 101
-    top 90px
+    top 290px
     left 0px
     right 0px
     height 45px
@@ -43,23 +51,28 @@ Global Navigation Menu
 
 #anchor-home
     width 150px
+    height 45px
     text-indent 0px
+    visibility visible
+    opacity 1
 
 .anchor-home-invisible
     width 0px !important
-    height 0 !important
+    height 45px !important
     text-indent -9999px !important
-    margin: 0 !important;
+    margin: 0 !important
+    visibility hidden !important
+    opacity 0 !important
 
 #menu li
     display inline-block
     height 45px
     margin 0px 15px
     overflow hidden
-    -webkit-transition all 0.15s ease-out
-    -moz-transition all 0.15s ease-out
-    -o-transition all 0.15s ease-out
-    transition all 0.15s ease-out
+    -webkit-transition all 0.30s ease-out
+    -moz-transition all 0.30s ease-out
+    -o-transition all 0.30s ease-out
+    transition all 0.30s ease-out
 
 
 #menu li.active
