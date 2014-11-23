@@ -1,18 +1,19 @@
-# [html5boilerplate.com](http://html5boilerplate.com/)
+# [mattspangenberg.com](http://mattspangenberg.com/)
 
-[![Build Status](https://travis-ci.org/h5bp/html5boilerplate.com.svg)](https://travis-ci.org/h5bp/html5boilerplate.com)
-[![devDependency Status](https://david-dm.org/h5bp/html5boilerplate.com/dev-status.svg)](https://david-dm.org/h5bp/html5boilerplate.com#info=devDependencies)
+The personal portfolio of Matthew Spangenberg. 
 
-The HTML5 Boilerplate website is a simple static site.
+## Framework
 
 * The development code is in the
-  [`src`](https://github.com/h5bp/html5boilerplate.com/tree/master/src)
+  [`src`](https://github.com/mspangenberg/mattspangenberg.com/tree/master/src)
   directory.
 * The build process relies on [Grunt](http://gruntjs.com) (a
   [Node.js](http://nodejs.org) task runner).
 * The Grunt configurations can be found in the
-  [`Gruntfile.js`](https://github.com/h5bp/html5boilerplate.com/blob/master/Gruntfile.js)
+  [`Gruntfile.js`](https://github.com/mspangenberg/mattspangenberg.com/blob/master/Gruntfile.js)
   file.
+* The boilerplate is based on [HTML5 Boilerplate](http://html5boilerplate.com/) ([GitHub](https://github.com/h5bp/html5-boilerplate)).
+* The Site is using [Bootstrap](http://github.com/twbs/bootstrap/) - [v3.2.0](https://github.com/twbs/bootstrap/releases/tag/v3.2.0) for responsive design.
 
 ## Setup
 
@@ -25,7 +26,7 @@ The HTML5 Boilerplate website is a simple static site.
 ## Development
 
 You should be able to work almost entirely in the
-[`src`](https://github.com/mspangenberg/su-style-guide/tree/master/src) directory.
+[`src`](https://github.com/mspangenberg/mattspangenberg.com/tree/master/src) directory.
 
 While developing run `grunt dev; grunt watch` as this will automatically update it whenever 
 changes are made to the page or any of the files contained in the page. You will need to open
@@ -36,10 +37,3 @@ the index after it is built from the dist folder directory.
 
 When you have finished your changes, make sure that the distribution package is
 correct by running `grunt test` and then checking the output.
-
-## Deploy
-
-This step is done automatically: the server will
-[periodically pull](https://github.com/h5bp/html5boilerplate.com/wiki) from
-the `server-content` branch, branch that will be updated by Travis CI every
-time a commit is pushed to the `master` branch and the tests pass.
