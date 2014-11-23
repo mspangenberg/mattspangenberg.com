@@ -107,17 +107,18 @@ module.exports = function (grunt) {
 		},
 
 		handlebarslayouts: {
-      home: {
-        files: {
-          '<%= settings.dir.dist %>/index.html': '<%= settings.dir.src %>/index.hbs'
-        }
-      },
-      options: {
-        partials: [
-          '<%= settings.dir.src %>/partials/*.hbs'
-        ],
-      }
-    },
+		    home: {
+		       	files: {
+		        	'<%= settings.dir.dist %>/index.html': '<%= settings.dir.src %>/index.hbs',
+		        	'<%= settings.dir.dist %>/work/portfolio/vtb-persistent-registration-bar/index.html': '<%= settings.dir.src %>/work/portfolio/vtb-persistent-registration-bar/index.hbs'
+		        }
+	      	},
+	      	options: {
+		        partials: [
+		        	'<%= settings.dir.src %>/partials/*.hbs'
+		        ],
+	      	}
+		},
 
 		htmlmin: {
 			build: {
@@ -267,7 +268,7 @@ module.exports = function (grunt) {
 		'uncss',
 		'autoprefixer',
 		'cssmin',
-		'filerev',
+		// 'filerev',
 		'usemin',
 		'htmlmin',
 		'clean:tmp'

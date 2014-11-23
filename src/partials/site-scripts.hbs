@@ -32,7 +32,7 @@
 			'scrollOverflow': true,
 			'menu': '#menu',
 			'sectionsColor': ['#333333', '#666666', '#212121', '#727272', '#ff0000'],
-			'anchors': ['home', 'secondPage', '3rdPage', '4thpage'],
+			'anchors': ['about', 'experience', 'skills', 'work'],
 			'slidesNavigation': true,
 
 
@@ -43,11 +43,6 @@
 			'afterLoad': function(anchorLink, index){
 				if(index == 1){
 					$('#angle-down').addClass('animated bounce');
-
-				 //    var delay = setTimeout(function(){
-				 //    	$('#nav-background').removeClass('nav-background-visible');
-				 //    }, 705)
-
 				}
 				else if(index == 3){
 					$('#iphone2').addClass('active');
@@ -63,9 +58,10 @@
 				$('#angle-down').removeClass('animated bounce');
 				$('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
 
-				var delay = setTimeout(function(){
-						
-				    }, 0)
+				//	Deplay Example
+				//  var delay = setTimeout(function(){
+				//  $('#nav-background').removeClass('nav-background-visible');
+				//  }, 705)
 			}
 
 		});
@@ -73,4 +69,11 @@
 		$('#section0').addClass('animated zoomIn');
 
 	});
+</script>
+
+<script>
+	$('#menu').click(function() {
+	  $('#ui-block-a').removeClass('menu-fixed nav-background-visible');
+	  };
+	}); 
 </script>

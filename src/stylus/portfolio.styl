@@ -20,22 +20,19 @@ Site Style Imports
 */
 
 // Variables
-@import "site/variables.styl"
+@import "portfolio/variables.styl"
 
 // Override Classes
-@import "site/overrides.styl"
+@import "portfolio/overrides.styl"
 
 // Polygon Background
-@import "site/polygon.styl"
+@import "portfolio/polygon.styl"
 
 // Global Navigation Menu
-@import "site/menu.styl"
+@import "portfolio/menu.styl"
 
-// Section 0
-@import "site/section-0.styl"
-
-// Section 3
-@import "site/section-3.styl"
+// Global Navigation Menu
+@import "portfolio/section-0.styl"
 
 /* 
 ==========================================================================
@@ -81,7 +78,22 @@ Moving Image Test
 
 /* 
 ==========================================================================
-Media Queries Example
+Retina Test
+========================================================================== 
+*/
+
+.retina-or-not
+    display block
+    margin 0 auto
+    width 320px
+    height 53px
+    background-image url(../img/example.jpg)
+    background-position center center
+    background-repeat no-repeat
+
+/* 
+==========================================================================
+Media Queries Test
 ========================================================================== 
 */
 
@@ -115,25 +127,23 @@ Media Queries Example
     .well
         font-size 14px
 
-/* 
-==========================================================================
-Retina Test
-========================================================================== 
-*/
+/* Retina Assets */
 
-// .retina-or-not
-//     display block
-//     margin 0 auto
-//     width 320px
-//     height 53px
-//     background-image url(../img/example.jpg)
-//     background-position center center
-//     background-repeat no-repeat
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi)
 
-// @media 
-// (-webkit-min-device-pixel-ratio: 2), 
-// (min-resolution: 192dpi)
+    .retina-or-not
+        background-image url(../img/example@2x.jpg)
+        background-size 320px 53px
 
-//     .retina-or-not
-//         background-image url(../img/example@2x.jpg)
-//         background-size 320px 53px
+// @media
+// only screen and (-webkit-min-device-pixel-ratio: 2),
+// only screen and (   min--moz-device-pixel-ratio: 2),
+// only screen and (     -o-min-device-pixel-ratio: 2/1),
+// only screen and (        min-device-pixel-ratio: 2),
+// only screen and (                min-resolution: 192dpi),
+// only screen and (                min-resolution: 2dppx) {
+
+//   .retina-or-not
+//       background-image: url(../img/example@2x.jpg)
