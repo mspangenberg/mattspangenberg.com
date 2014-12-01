@@ -14,6 +14,7 @@ The personal portfolio of Matthew Spangenberg.
   file.
 * The boilerplate is based on [HTML5 Boilerplate](http://html5boilerplate.com/) ([GitHub](https://github.com/h5bp/html5-boilerplate)).
 * The Site is using [Bootstrap](http://github.com/twbs/bootstrap/) - [v3.2.0](https://github.com/twbs/bootstrap/releases/tag/v3.2.0) for responsive design.
+* The slides are controlled by [fullPage.js](https://github.com/alvarotrigo/fullPage.js).
 
 ## Setup
 

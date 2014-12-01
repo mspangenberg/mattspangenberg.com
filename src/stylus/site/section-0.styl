@@ -4,10 +4,60 @@ First Section Styles
 ==========================================================================
 */
 
-#section0-centent
+#section0-content
     width 100%
-    margin-top 210px
+    margin-top 150px
 
+#img-profile
+    height 90px
+    width 90px
+    margin 0 auto
+    border-radius 45px
+    border 1px solid $white-hex
+    background url('../img/img-mspangenberg-ux-designer.png')
+    background-repeat no-repeat
+    background-position center -30px
+    background-size 135px auto
+
+#section-0-h1
+    font-size 32px
+    font-weight 100
+
+#section-0-p
+    font-size 16px
+    font-weight 100
+
+.icn-social
+    height 30px
+    width 30px
+    border 1px solid $white-hex
+    border-radius 15px
+    text-align center
+    line-height 30px
+    font-size 12px
+    margin 15px 5px 5px
+
+#btn-portfolio
+    height 30px
+    width 180px
+    margin 30px auto
+    border 1px solid $white-hex
+    border-radius 4px
+    background rgba(255,255,255, 0.96)
+
+#btn-portfolio a
+    padding 0px 15px    
+    height 100%
+    line-height 30px
+    font-size 14px
+    font-weight 400
+    color $grey-dark-hex
+    display block
+
+#btn-portfolio a:hover
+    text-decoration none
+
+// Anlge Down Arrow
 .arrow-down
     width 0 
     height 0
@@ -15,7 +65,6 @@ First Section Styles
     border-right 20px solid transparent
     border-top 20px solid #f00
 
-// Anlge Down Arrow
 #angle-down
     width 100%
     position absolute
@@ -28,3 +77,48 @@ First Section Styles
 #angle-down i
     text-align center
     width 100%
+
+
+/* 
+==========================================================================
+Media Queries
+========================================================================== 
+*/
+
+/* Extra Small devices (up to 479px) */
+@media (max-width: 479px)
+
+    #section0-content
+        margin-top 90px
+
+    #section-0-h1
+        font-size 32px
+        font-weight 300
+
+    #section-0-p
+        font-size 16px
+        font-weight 300
+
+/* Medium Small devices (tablets, 480px and up) */
+@media (min-width: 480px) and (max-width: 767px)
+
+    .well
+        font-size 14px
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px)
+
+    .well
+        font-size 14px
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px)
+
+    .well
+        font-size 14px
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+
+    .well
+        font-size 14px

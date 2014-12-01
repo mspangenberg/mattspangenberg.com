@@ -35,7 +35,6 @@
 			'anchors': ['about', 'experience', 'skills', 'work'],
 			'slidesNavigation': true,
 
-
 			'afterRender': function(){
 				$('#angle-down').addClass('animated bounce');
 			},
@@ -63,7 +62,6 @@
 				//  $('#nav-background').removeClass('nav-background-visible');
 				//  }, 705)
 			}
-
 		});
 
 		$('#section0').addClass('animated zoomIn');
@@ -71,9 +69,24 @@
 	});
 </script>
 
+<!-- Menu Animation
 <script>
 	$('#menu').click(function() {
 	  $('#ui-block-a').removeClass('menu-fixed nav-background-visible');
-	  };
+	  });
 	}); 
+</script>
+ -->
+
+<!-- Google Analytics -->
+<script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-9745078-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
 </script>
