@@ -1,0 +1,207 @@
+
+/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+
+/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 519 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+/*
+  Bootstrap 3 Grid Text Alignemnts - compiled css taken from https://github.com/twbs/bootstrap/issues/11292
+
+  ! Custom Medium Small (col-ms) 480px - 767px
+*/
+
+/* line 7 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-left-not-xs,
+.text-left-not-ms,
+.text-left-not-sm,
+.text-left-not-md,
+.text-left-not-lg {
+  text-align: left;
+}
+
+/* line 10 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-center-not-xs,
+.text-center-not-ms,
+.text-center-not-sm,
+.text-center-not-md,
+.text-center-not-lg {
+  text-align: center;
+}
+
+/* line 13 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-right-not-xs,
+.text-right-not-ms,
+.text-right-not-sm,
+.text-right-not-md,
+.text-right-not-lg {
+  text-align: right;
+}
+
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-justify-not-xs,
+.text-justify-not-ms,
+.text-justify-not-sm,
+.text-justify-not-md,
+.text-justify-not-lg {
+  text-align: justify;
+}
+
+/* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (max-width: 479px) {
+
+/* line 21 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-xs,
+  .text-center-not-xs,
+  .text-right-not-xs,
+  .text-justify-not-xs {
+    text-align: inherit;
+  }
+
+/* line 24 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-xs {
+    text-align: left;
+  }
+
+/* line 27 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-xs {
+    text-align: center;
+  }
+
+/* line 30 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-xs {
+    text-align: right;
+  }
+
+/* line 33 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-xs {
+    text-align: justify;
+  }
+}
+
+/* line 37 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 38 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-ms,
+  .text-center-not-ms,
+  .text-right-not-ms,
+  .text-justify-not-ms {
+    text-align: inherit;
+  }
+
+/* line 41 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-ms {
+    text-align: left;
+  }
+
+/* line 44 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-ms {
+    text-align: center;
+  }
+
+/* line 47 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-ms {
+    text-align: right;
+  }
+
+/* line 50 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-ms {
+    text-align: justify;
+  }
+}
+
+/* line 54 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* line 55 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-sm,
+  .text-center-not-sm,
+  .text-right-not-sm,
+  .text-justify-not-sm {
+    text-align: inherit;
+  }
+
+/* line 58 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-sm {
+    text-align: left;
+  }
+
+/* line 61 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-sm {
+    text-align: center;
+  }
+
+/* line 64 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-sm {
+    text-align: right;
+  }
+
+/* line 67 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-sm {
+    text-align: justify;
+  }
+}
+
+/* line 71 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* line 72 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-md,
+  .text-center-not-md,
+  .text-right-not-md,
+  .text-justify-not-md {
+    text-align: inherit;
+  }
+
+/* line 75 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-md {
+    text-align: left;
+  }
+
+/* line 78 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-md {
+    text-align: center;
+  }
+
+/* line 81 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-md {
+    text-align: right;
+  }
+
+/* line 84 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-md {
+    text-align: justify;
+  }
+}
+
+/* line 88 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 1200px) {
+
+/* line 89 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-lg,
+  .text-center-not-lg,
+  .text-right-not-lg,
+  .text-justify-not-lg {
+    text-align: inherit;
+  }
+
+/* line 92 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-lg {
+    text-align: left;
+  }
+
+/* line 95 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-lg {
+    text-align: center;
+  }
+
+/* line 98 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-lg {
+    text-align: right;
+  }
+
+/* line 101 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-lg {
+    text-align: justify;
+  }
+}

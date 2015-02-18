@@ -1,0 +1,876 @@
+
+/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons.styl */
+
+/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 287 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 287 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+
+/* line 10 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+.col-ms-1,
+.col-ms-2,
+.col-ms-3,
+.col-ms-4,
+.col-ms-5,
+.col-ms-6,
+.col-ms-7,
+.col-ms-8,
+.col-ms-9,
+.col-ms-10,
+.col-ms-11,
+.col-ms-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 28 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-1,
+  .col-ms-2,
+  .col-ms-3,
+  .col-ms-4,
+  .col-ms-5,
+  .col-ms-6,
+  .col-ms-7,
+  .col-ms-8,
+  .col-ms-9,
+  .col-ms-10,
+  .col-ms-11 {
+    float: left;
+  }
+
+/* line 41 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-1 {
+    width: 8.33333%;
+  }
+
+/* line 44 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-2 {
+    width: 16.66667%;
+  }
+
+/* line 47 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-3 {
+    width: 25%;
+  }
+
+/* line 50 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-4 {
+    width: 33.33333%;
+  }
+
+/* line 53 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-5 {
+    width: 41.66667%;
+  }
+
+/* line 56 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-6 {
+    width: 50%;
+  }
+
+/* line 59 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-7 {
+    width: 58.33333%;
+  }
+
+/* line 62 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-8 {
+    width: 66.66667%;
+  }
+
+/* line 65 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-9 {
+    width: 75%;
+  }
+
+/* line 68 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-10 {
+    width: 83.33333%;
+  }
+
+/* line 71 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-11 {
+    width: 91.66667%;
+  }
+
+/* line 74 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-12 {
+    width: 100%;
+  }
+
+/* line 77 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-1 {
+    left: 8.33333%;
+  }
+
+/* line 80 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-2 {
+    left: 16.66667%;
+  }
+
+/* line 83 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-3 {
+    left: 25%;
+  }
+
+/* line 86 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-4 {
+    left: 33.33333%;
+  }
+
+/* line 89 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-5 {
+    left: 41.66667%;
+  }
+
+/* line 92 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-6 {
+    left: 50%;
+  }
+
+/* line 95 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-7 {
+    left: 58.33333%;
+  }
+
+/* line 98 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-8 {
+    left: 66.66667%;
+  }
+
+/* line 101 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-9 {
+    left: 75%;
+  }
+
+/* line 104 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-10 {
+    left: 83.33333%;
+  }
+
+/* line 107 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-push-11 {
+    left: 91.66667%;
+  }
+
+/* line 110 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-1 {
+    right: 8.33333%;
+  }
+
+/* line 113 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-2 {
+    right: 16.66667%;
+  }
+
+/* line 116 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-3 {
+    right: 25%;
+  }
+
+/* line 119 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-4 {
+    right: 33.33333%;
+  }
+
+/* line 122 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-5 {
+    right: 41.66667%;
+  }
+
+/* line 125 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-6 {
+    right: 50%;
+  }
+
+/* line 128 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-7 {
+    right: 58.33333%;
+  }
+
+/* line 131 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-8 {
+    right: 66.66667%;
+  }
+
+/* line 134 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-9 {
+    right: 75%;
+  }
+
+/* line 137 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-10 {
+    right: 83.33333%;
+  }
+
+/* line 140 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-pull-11 {
+    right: 91.66667%;
+  }
+
+/* line 143 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+/* line 146 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+/* line 149 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-3 {
+    margin-left: 25%;
+  }
+
+/* line 152 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+/* line 155 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+/* line 158 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-6 {
+    margin-left: 50%;
+  }
+
+/* line 161 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+/* line 164 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+/* line 167 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-9 {
+    margin-left: 75%;
+  }
+
+/* line 170 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+/* line 173 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .col-ms-offset-11 {
+    margin-left: 91.66667%;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 178 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .container {
+    max-width: 748px;
+  }
+
+/* line 181 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .form-horizontal .form-group .control-label {
+    text-align: right;
+  }
+}
+
+/* line 194 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+.visible-ms,
+tr.visible-ms,
+th.visible-ms,
+td.visible-ms {
+  display: none !important;
+}
+@media (max-width: 479px) {
+
+/* line 202 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-ms.visible-xs {
+    display: block !important;
+  }
+
+/* line 205 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-ms.visible-xs {
+    display: table;
+  }
+
+/* line 208 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-ms.visible-xs {
+    display: table-row !important;
+  }
+
+/* line 211 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-ms.visible-xs,
+  td.visible-ms.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 218 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-ms {
+    display: block !important;
+  }
+
+/* line 221 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-ms {
+    display: table;
+  }
+
+/* line 224 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-ms {
+    display: table-row !important;
+  }
+
+/* line 227 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-ms,
+  td.visible-ms {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* line 234 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-ms.visible-sm {
+    display: block !important;
+  }
+
+/* line 237 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-ms.visible-sm {
+    display: table;
+  }
+
+/* line 240 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-ms.visible-sm {
+    display: table-row !important;
+  }
+
+/* line 243 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-ms.visible-sm,
+  td.visible-ms.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* line 250 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-ms.visible-md {
+    display: block !important;
+  }
+
+/* line 253 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-ms.visible-md {
+    display: table;
+  }
+
+/* line 256 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-ms.visible-md {
+    display: table-row !important;
+  }
+
+/* line 259 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-ms.visible-md,
+  td.visible-ms.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+
+/* line 266 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-ms.visible-lg {
+    display: block !important;
+  }
+
+/* line 269 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-ms.visible-lg {
+    display: table;
+  }
+
+/* line 272 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-ms.visible-lg {
+    display: table-row !important;
+  }
+
+/* line 275 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-ms.visible-lg,
+  td.visible-ms.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 285 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-xs {
+    display: none !important;
+  }
+
+/* line 288 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-xs {
+    display: none;
+  }
+
+/* line 291 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-xs {
+    display: none !important;
+  }
+
+/* line 294 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-xs,
+  td.visible-xs {
+    display: none !important;
+  }
+}
+@media (max-width: 479px) {
+
+/* line 301 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-xs {
+    display: block !important;
+  }
+
+/* line 304 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-xs {
+    display: table;
+  }
+
+/* line 307 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+/* line 310 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 317 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-xs.visible-ms {
+    display: block !important;
+  }
+
+/* line 320 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-xs.visible-ms {
+    display: table;
+  }
+
+/* line 323 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-xs.visible-ms {
+    display: table-row !important;
+  }
+
+/* line 326 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-xs.visible-ms,
+  td.visible-xs.visible-ms {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 335 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-sm.visible-ms {
+    display: block !important;
+  }
+
+/* line 338 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-sm.visible-ms {
+    display: table;
+  }
+
+/* line 341 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-sm.visible-ms {
+    display: table-row !important;
+  }
+
+/* line 344 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-sm.visible-ms,
+  td.visible-sm.visible-ms {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 353 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-md.visible-sm {
+    display: block !important;
+  }
+
+/* line 356 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-md.visible-sm {
+    display: table;
+  }
+
+/* line 359 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-md.visible-sm {
+    display: table-row !important;
+  }
+
+/* line 362 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-md.visible-sm,
+  td.visible-md.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 676px) {
+
+/* line 371 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .visible-lg.visible-ms {
+    display: block !important;
+  }
+
+/* line 374 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.visible-lg.visible-ms {
+    display: table;
+  }
+
+/* line 377 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.visible-lg.visible-ms {
+    display: table-row !important;
+  }
+
+/* line 380 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.visible-lg.visible-ms,
+  td.visible-lg.visible-ms {
+    display: table-cell !important;
+  }
+}
+
+/* line 390 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+.hidden-ms {
+  display: block !important;
+}
+
+/* line 394 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+table.hidden-ms {
+  display: table;
+}
+
+/* line 398 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+tr.hidden-ms {
+  display: table-row !important;
+}
+
+/* line 402 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+th.hidden-ms,
+td.hidden-ms {
+  display: table-cell !important;
+}
+@media (max-width: 479px) {
+
+/* line 408 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-ms.hidden-xs,
+  tr.hidden-ms.hidden-xs,
+  th.hidden-ms.hidden-xs,
+  td.hidden-ms.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 417 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-ms,
+  tr.hidden-ms,
+  th.hidden-ms,
+  td.hidden-ms {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* line 426 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-ms.hidden-sm,
+  tr.hidden-ms.hidden-sm,
+  th.hidden-ms.hidden-sm,
+  td.hidden-ms.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* line 435 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-ms.hidden-md,
+  tr.hidden-ms.hidden-md,
+  th.hidden-ms.hidden-md,
+  td.hidden-ms.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+
+/* line 444 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-ms.hidden-lg,
+  tr.hidden-ms.hidden-lg,
+  th.hidden-ms.hidden-lg,
+  td.hidden-ms.hidden-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 455 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-xs {
+    display: block !important;
+  }
+
+/* line 458 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  table.hidden-xs {
+    display: block;
+  }
+
+/* line 461 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  tr.hidden-xs {
+    display: block !important;
+  }
+
+/* line 464 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  th.hidden-xs,
+  td.hidden-xs {
+    display: block !important;
+  }
+}
+@media (max-width: 479px) {
+
+/* line 471 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-xs,
+  tr.hidden-xs,
+  th.hidden-xs,
+  td.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 480 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-xs.hidden-ms,
+  tr.hidden-xs.hidden-ms,
+  th.hidden-xs.hidden-ms,
+  td.hidden-xs.hidden-ms {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 491 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-sm.hidden-ms,
+  tr.hidden-sm.hidden-ms,
+  th.hidden-sm.hidden-ms,
+  td.hidden-sm.hidden-ms {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 502 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-md.hidden-ms,
+  tr.hidden-md.hidden-ms,
+  th.hidden-md.hidden-ms,
+  td.hidden-md.hidden-ms {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 513 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+  .hidden-lg.hidden-ms,
+  tr.hidden-lg.hidden-ms,
+  th.hidden-lg.hidden-ms,
+  td.hidden-lg.hidden-ms {
+    display: none !important;
+  }
+}
+
+/* line 519 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+
+/* line 519 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+
+/* line 7 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-left-not-xs,
+.text-left-not-ms,
+.text-left-not-sm,
+.text-left-not-md,
+.text-left-not-lg {
+  text-align: left;
+}
+
+/* line 10 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-center-not-xs,
+.text-center-not-ms,
+.text-center-not-sm,
+.text-center-not-md,
+.text-center-not-lg {
+  text-align: center;
+}
+
+/* line 13 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-right-not-xs,
+.text-right-not-ms,
+.text-right-not-sm,
+.text-right-not-md,
+.text-right-not-lg {
+  text-align: right;
+}
+
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-justify-not-xs,
+.text-justify-not-ms,
+.text-justify-not-sm,
+.text-justify-not-md,
+.text-justify-not-lg {
+  text-align: justify;
+}
+@media (max-width: 479px) {
+
+/* line 21 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-xs,
+  .text-center-not-xs,
+  .text-right-not-xs,
+  .text-justify-not-xs {
+    text-align: inherit;
+  }
+
+/* line 24 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-xs {
+    text-align: left;
+  }
+
+/* line 27 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-xs {
+    text-align: center;
+  }
+
+/* line 30 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-xs {
+    text-align: right;
+  }
+
+/* line 33 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-xs {
+    text-align: justify;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 38 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-ms,
+  .text-center-not-ms,
+  .text-right-not-ms,
+  .text-justify-not-ms {
+    text-align: inherit;
+  }
+
+/* line 41 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-ms {
+    text-align: left;
+  }
+
+/* line 44 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-ms {
+    text-align: center;
+  }
+
+/* line 47 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-ms {
+    text-align: right;
+  }
+
+/* line 50 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-ms {
+    text-align: justify;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* line 55 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-sm,
+  .text-center-not-sm,
+  .text-right-not-sm,
+  .text-justify-not-sm {
+    text-align: inherit;
+  }
+
+/* line 58 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-sm {
+    text-align: left;
+  }
+
+/* line 61 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-sm {
+    text-align: center;
+  }
+
+/* line 64 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-sm {
+    text-align: right;
+  }
+
+/* line 67 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-sm {
+    text-align: justify;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* line 72 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-md,
+  .text-center-not-md,
+  .text-right-not-md,
+  .text-justify-not-md {
+    text-align: inherit;
+  }
+
+/* line 75 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-md {
+    text-align: left;
+  }
+
+/* line 78 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-md {
+    text-align: center;
+  }
+
+/* line 81 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-md {
+    text-align: right;
+  }
+
+/* line 84 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-md {
+    text-align: justify;
+  }
+}
+@media (min-width: 1200px) {
+
+/* line 89 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-lg,
+  .text-center-not-lg,
+  .text-right-not-lg,
+  .text-justify-not-lg {
+    text-align: inherit;
+  }
+
+/* line 92 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-lg {
+    text-align: left;
+  }
+
+/* line 95 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-lg {
+    text-align: center;
+  }
+
+/* line 98 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-lg {
+    text-align: right;
+  }
+
+/* line 101 : /Users/mspangenberg/github/portfolio/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-lg {
+    text-align: justify;
+  }
+}

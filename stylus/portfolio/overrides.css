@@ -1,0 +1,88 @@
+
+/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+
+/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 17 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+/*  
+==========================================================================
+Bootstrap Override Styles
+==========================================================================
+*/
+
+/* line 7 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 11 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.no-style {
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  list-style: none !important;
+  text-decoration: none !important;
+  border: none !important;
+  border-radius: 0px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.no-padding {
+  padding: 0px !important;
+}
+
+/* line 25 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.no-margin {
+  margin: 0px !important;
+}
+
+/* line 28 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.position-relative {
+  position: relative;
+}
+
+/* line 31 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.position-absolute {
+  position: absolute;
+}
+
+/* line 34 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.full-height {
+  height: 100%;
+}
+
+/* line 37 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.full-width {
+  width: 100%;
+}
+
+/* line 40 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.full-screen {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 44 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.verticle-center {
+  position: absolute;
+  top: 50%;
+}
+
+/* line 48 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.transition-all {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+/* line 54 : /Users/mspangenberg/github/portfolio/src/stylus/portfolio/overrides.styl */
+.transition-background {
+  -webkit-transition: background 0.4s ease;
+  -moz-transition: background 0.4s ease;
+  -o-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}

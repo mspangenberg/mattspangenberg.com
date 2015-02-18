@@ -1,0 +1,26 @@
+
+/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/fonts/roboto.styl */
+
+/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 11 : /Users/mspangenberg/github/portfolio/src/stylus/fonts/roboto.styl */
+/*  
+==========================================================================
+Font Example
+==========================================================================
+*/
+
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/fonts/roboto.styl */
+/*  
+==========================================================================
+Roboto Slab (http://www.google.com/fonts/specimen/Roboto+Slab)
+==========================================================================
+*/
+
+/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/fonts/roboto.styl */
+@font-face {
+  font-family: 'RobotoSlab-Thin';
+  src: url("$font-pathRoboto_Slab/RobotoSlab-Thin.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
