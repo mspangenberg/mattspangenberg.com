@@ -1,11 +1,36 @@
-<div id="nav-background">
-</div>
-
-<ul id="menu">
+{{!-- <ul id="menu">
 	<li data-menuanchor="about" id="anchor-home" class="anchor-home-invisible">
-		<a href="#about">Matthew Spangenberg:</a>
+		<a href="#about">Matthew Spangenberg | UX Designer</a>
 	</li>
 	<li data-menuanchor="experience"><a href="#experience">Experience</a></li>
 	<li data-menuanchor="skills"><a href="#skills">Skills</a></li>
 	<li data-menuanchor="work"><a href="#work">Work</a></li>
-</ul>
+</ul> --}}
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a data-menuanchor="home" id="anchor-home" class="navbar-brand" href="#home">Matthew Spangenberg</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="menu" class="nav navbar-nav navbar-right">
+		<li data-menuanchor="featured"><a href="#featured">Featured</a></li>
+		<li data-menuanchor="experience"><a href="#experience">Experience</a></li>
+		<li data-menuanchor="skills"><a href="#skills">Skills</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="nav-background">
+</div>

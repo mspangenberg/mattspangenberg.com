@@ -49,6 +49,28 @@ module.exports = function (grunt) {
 			]
 		},
 
+		connect: {
+            options: {
+                hostname: 'localhost',  // → Change this to '0.0.0.0' if
+                                        // the server needs to be accessed
+                                        // from outside of the LAN
+                livereload: 35729,
+                port: 8080              // → 8080 is used as it is the official
+                                        // alternate to port 80 (default port
+                                        // for HTTP), and it doesn't require
+                                        // root access:
+                                        // http://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+            },
+            livereload: {
+                options: {
+                    base: '<%= settings.dir.dist %>',
+
+                    // Automatically open the webpage in the default browser
+                    open: true
+                }
+            }
+        },
+
 		cssmin: {
 			generated: {
 				// In-depth information about the options:
@@ -74,6 +96,8 @@ module.exports = function (grunt) {
 					// (other tasks will handle the copying of these files)
 					'!**/*.styl',
 					'!css/*',
+					'!**/*.hbs',
+					'!**/partials/**',
 					'!img/old/*'
 				]
 			}
@@ -94,17 +118,12 @@ module.exports = function (grunt) {
 			}
 		},
 
-		jshint: {
-			files: [
-				'Gruntfile.js',
-				'<%= settings.dir.src %>/js/*.js',
-				'!<%= settings.dir.src %>/js/*.min.js'
-			],
-			options: {
-				// Search for `.jshintrc` files relative to files being linted
-				jshintrc: true
-			}
-		},
+		'gh-pages': {
+	    	options: {
+	     		base: 'dist'
+	    	},
+	   		src: ['**/*']
+	 	},
 
 		handlebarslayouts: {
 		    home: {
@@ -144,11 +163,59 @@ module.exports = function (grunt) {
 			}
 		},
 
+		jshint: {
+			files: [
+				'Gruntfile.js',
+				'<%= settings.dir.src %>/js/*.js',
+				'!<%= settings.dir.src %>/js/*.min.js'
+			],
+			options: {
+				// Search for `.jshintrc` files relative to files being linted
+				jshintrc: true
+			}
+		},
+
+		'string-replace': {
+  			dist: {
+    			files: {
+      				// Replace Paths for GitHub Pages in Index and Stylus Files
+      				'<%= settings.dir.dist %>/': [
+      					'<%= settings.dir.dist %>/**/index.html',
+      					'<%= settings.dir.dist %>/stylus/*.css'
+      					],
+    			},
+    			options: {
+      				replacements: [{
+        				pattern: /stylus/ig,
+        				replacement: 'mattspangenberg/stylus'
+      				}, {
+        				pattern: /vendor/ig,
+        				replacement: 'mattspangenberg/vendor'
+      				}, {
+        				pattern: /\"\/js\//ig,
+        				replacement: '"/mattspangenberg/js/'
+      				}, {
+        				pattern: 'href="/"',
+        				replacement: 'href=\"/mattspangenberg"'
+      				}, {
+        				pattern: /pages/ig,
+        				replacement: 'mattspangenberg/pages'
+      				}, {
+		         		pattern: /url\(\"\/img/ig,
+		         		replacement: 'url("/mattspangenberg/img'
+		       		}]
+    			}
+  			}
+		},
+
 		stylus: {
 			build: {
 				options: {
 					linenos: true,
-					compress: false
+					compress: false,
+					define: {
+          				import_tree: require('stylus-import-tree')
+          			}
 				},
 			files: [{
 					expand: true,
@@ -268,7 +335,7 @@ module.exports = function (grunt) {
 		'uncss',
 		'autoprefixer',
 		'cssmin',
-		// 'filerev',
+		'filerev',
 		'usemin',
 		'htmlmin',
 		'clean:tmp'
@@ -281,8 +348,14 @@ module.exports = function (grunt) {
 	]);
 
 	grunt.registerTask('dev', [
-		'build',
+		'connect',
 		'watch'
+	]);
+
+	grunt.registerTask('deploy', [
+		'string-replace',
+		'gh-pages',
+		'clean:all',
 	]);
 
 	grunt.registerTask('test', [

@@ -7,9 +7,16 @@
 
   	{{> site-menu}}
 
-    <div id="fullpage">
+    <div id="fullpage" style="z-index:2">
 	    {{> site-section-0}}
-    </div>
+	    {{> site-section-1}}
+	    {{> site-section-2}}
+	    {{> site-section-3}}
+	</div>
+
+	<div class="section0-background-left"></div>
+	<div class="section0-background-right"></div>
+	{{> asset-polygon}}
 
     {{> site-scripts}}
 
