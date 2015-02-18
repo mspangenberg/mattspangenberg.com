@@ -353,7 +353,7 @@ module.exports = function (grunt) {
 	]);
 
 	grunt.registerTask('deploy', [
-		'string-replace',
+		// 'string-replace',
 		'gh-pages',
 		'clean:all',
 	]);
