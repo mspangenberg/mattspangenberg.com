@@ -187,22 +187,22 @@ module.exports = function (grunt) {
     			options: {
       				replacements: [{
         				pattern: /stylus/ig,
-        				replacement: 'mattspangenberg/stylus'
+        				replacement: 'mattspangenberg.com/stylus'
       				}, {
         				pattern: /vendor/ig,
-        				replacement: 'mattspangenberg/vendor'
+        				replacement: 'mattspangenberg.com/vendor'
       				}, {
         				pattern: /\"\/js\//ig,
-        				replacement: '"/mattspangenberg/js/'
+        				replacement: '"/mattspangenberg.com/js/'
       				}, {
         				pattern: 'href="/"',
-        				replacement: 'href=\"/mattspangenberg"'
+        				replacement: 'href=\"/mattspangenberg.com"'
       				}, {
         				pattern: /pages/ig,
-        				replacement: 'mattspangenberg/pages'
+        				replacement: 'mattspangenberg.com/pages'
       				}, {
 		         		pattern: /url\(\"\/img/ig,
-		         		replacement: 'url("/mattspangenberg/img'
+		         		replacement: 'url("/mattspangenberg.com/img'
 		       		}]
     			}
   			}
