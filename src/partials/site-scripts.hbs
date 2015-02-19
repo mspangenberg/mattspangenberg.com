@@ -39,27 +39,30 @@
 			'slidesNavigation': true,
 			'resize': false,
 			'paddingTop': '45px',
-			// 'normalScrollElements': ['#bl-expand-item'],
 
 			'afterRender': function(){
-				// $('#angle-down').addClass('animated bounce');
 			},
 
 			'afterLoad': function(anchorLink, index){
+
+				// Home Section 1 Animations
 				if(index == 1){
 					$('#section0').addClass('animated fadeIn');
 					$(".section0-background-left").removeClass("section0-background-left-animate-to-menu");
 					$(".section0-background-right").removeClass("section0-background-right-animate-to-menu");
 					$('#angle-down').addClass('animated bounce');
 				}
+
+				// Experience Section 3 Animations
 				if(index == 3){
 					$('#iphone2').addClass('active');
 				}
+
 			},
 
 			'onLeave': function(index, nextIndex, direction){
 
-				//Section 1 Animations
+				// Home Section 1 Animations
 				if(index == 1){
 					$("#nav-background, .navbar").addClass("nav-background-visible navbar-visible");
 					$('#section0').addClass('fadeOut');
@@ -74,23 +77,32 @@
 					});
 				}
 
-				// Section 2 Animations
+				// Featured Section 2 Animations
 				if(nextIndex == 2){
-					$("#bl-main section").addClass("animated zoomIn").delay(1000).queue(function(next){
+					$("#bl-main section").removeClass('zoomOut').addClass("animated zoomIn").delay(1000).queue(function(next){
 				    	$(this).removeClass("zoomIn");
 				    	next();
 					});
 				}
+				if(index == 2){
+					$('#bl-main section').addClass('zoomOut');
+				}
 
-				// Section 3 Animations
+				// Experience 3 Animations
 				$('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
 
 			},
 
 		});
 
+		// Load Document Ready
 		$('#angle-down').addClass('animated bounce');
 		$('#section0').addClass('animated fadeIn');
+
+		$('#angle-down').click(function(e){
+			e.preventDefault();
+			$.fn.fullpage.moveSectionDown();
+		});
 
 		// Angle Overlay Border Widths
 	    $w = $(window);
@@ -113,7 +125,7 @@
 		}
 		onResize();
 
-		// Block Click Hides Nav Bar
+		// Block Click Hides Nav Bar & Disables FullPage Scrolling
 		$(".bl-box").click(function(e) {
 			e.preventDefault();
 			$.fn.fullpage.setAllowScrolling(false);
@@ -131,6 +143,7 @@
 	});
 </script>
 
+<!-- Featured Section 1 Box Layout-->
 <script>
 	$(function() {
 		Boxlayout.init();

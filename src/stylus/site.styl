@@ -1,6 +1,6 @@
 /*
 ==========================================================================
-Temporary Global Styles
+Global Styles
 ==========================================================================
 */
 
@@ -8,10 +8,13 @@ Temporary Global Styles
     font-family 'Lato', 'RobotoSlab-Thin', Arial, Helvetica, sans-serif !important
     color #ffffff
     text-align center
+    -webkit-font-smoothing subpixel-antialiased
 
 body
     background-color #333
-    border-top 1px solid #fff
+
+#fullpage
+    z-index 2
 
 /*
 ==========================================================================
@@ -34,11 +37,11 @@ Site Style Imports
 // Section 0
 @import "site/section-0.styl"
 
+// Section 1
+@import "site/section-1.styl"
+
 // Section 3
 @import "site/section-3.styl"
-
-// Full Screen Page Layout Transitions
-@import "site/full-screen-page-layout-transitions.styl"
 
 /*
 ==========================================================================
@@ -91,52 +94,29 @@ Media Queries Example
 /* Extra Small devices (up to 479px) */
 @media (max-width: 479px)
 
-    .well
+    .test
         font-size 14px
 
 /* Medium Small devices (tablets, 480px and up) */
 @media (min-width: 480px) and (max-width: 767px)
 
-    .well
+    .test
         font-size 14px
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px)
 
-    .well
+    .test
         font-size 14px
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px)
 
-    .well
+    .test
         font-size 14px
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px)
 
-    .well
+    .test
         font-size 14px
-
-/*
-==========================================================================
-Retina Test
-==========================================================================
-*/
-
-// .retina-or-not
-//     display block
-//     margin 0 auto
-//     width 320px
-//     height 53px
-//     background-image url(../img/example.jpg)
-//     background-position center center
-//     background-repeat no-repeat
-
-// @media
-// (-webkit-min-device-pixel-ratio: 2),
-// (min-resolution: 192dpi)
-
-//     .retina-or-not
-//         background-image url(../img/example@2x.jpg)
-//         background-size 320px 53px

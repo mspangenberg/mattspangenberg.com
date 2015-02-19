@@ -129,7 +129,8 @@ module.exports = function (grunt) {
 		    home: {
 		       	files: {
 		        	'<%= settings.dir.dist %>/index.html': '<%= settings.dir.src %>/index.hbs',
-		        	'<%= settings.dir.dist %>/work/portfolio/vtb-persistent-registration-bar/index.html': '<%= settings.dir.src %>/work/portfolio/vtb-persistent-registration-bar/index.hbs'
+		        	// Example To Add More Later
+		        	// '<%= settings.dir.dist %>/path/to/page/index.html': '<%= settings.dir.src %>/path/to/page/index.hbs'
 		        }
 	      	},
 	      	options: {

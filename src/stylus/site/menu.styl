@@ -21,7 +21,7 @@ Global Navigation Menu
 
 .nav-background-visible
     height 45px !important
-    background-color rgba(255,255,255,1) !important
+    background-color $nav-background !important
 
 .navbar
     position fixed
@@ -52,7 +52,7 @@ Global Navigation Menu
     opacity 1 !important
 
 .navbar-default .navbar-brand
-    color #333
+    color $nav-brand
 
 .navbar-brand
     float left
@@ -62,7 +62,7 @@ Global Navigation Menu
     line-height 45px
 
 .navbar #menu li a
-    color #999
+    color $nav-links
 
 .navbar-default .navbar-nav>.active>a
     background-image none
@@ -88,7 +88,7 @@ Global Navigation Menu
 
 .collapsing,
 .navbar-collapse.in
-    background-color #f2f2f2
+    background-color $nav-dropdown
 
 .collapsing #menu li a,
 .navbar-collapse.in #menu li a
@@ -101,28 +101,27 @@ Global Navigation Menu
     overflow hidden
 
 #menu li.active
-    border-bottom 1px solid $menu-active-color
+    border-bottom 1px solid $nav-active-color
 
 #menu li a
     text-decoration none
     font-size 14px
-    color $menu-normal-color
 
 #menu li a:hover
-    color $menu-hover-color
+    color $nav-hover-color
 
 #menu li.active a:hover
-    color $menu-active-hover-color
+    color $nav-active-hover-color
 
 #menu li:hover
-    border-bottom 1px solid $menu-hover-color
+    border-bottom 1px solid $nav-hover-color
 
 #menu li a
 #menu li.active a
     display block
 
 #menu li.active a
-    color $menu-active-color
+    color $nav-active-color
 
 /*
 ==========================================================================
