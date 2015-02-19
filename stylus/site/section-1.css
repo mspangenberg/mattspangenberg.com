@@ -1,9 +1,9 @@
 
-/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 
 /* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
 
-/* line 2 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 6 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 *,
 *:after,
 *:before {
@@ -12,55 +12,60 @@
   box-sizing: border-box;
 }
 
-/* line 8 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
-.container {
-  height: calc(100% - 45px);
-}
-
-/* line 11 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 12 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main {
   position: absolute;
   width: 100%;
   height: calc(100% - 45px);
   overflow: hidden;
+  -webkit-transition: all 0.3s ease-out;
 }
 
-/* line 17 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 18 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+-moz-transition all 0.3s ease-out,
+-o-transition all 0.3s ease-out,
+transition all 0.3s ease-out,
+.grow-bl-main {
+  height: 100% !important;
+  top: 0 !important;
+}
+
+/* line 26 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section {
   position: absolute;
   width: 50%;
   height: 50%;
 }
 
-/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 31 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:first-child {
   top: 0;
   left: 0;
   background: $sectionfirst-child;
 }
 
-/* line 27 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 36 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(2) {
   top: 0;
   left: 50%;
   background: $sectionnth-child-two;
 }
 
-/* line 32 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 41 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(3) {
   top: 50%;
   left: 0;
   background: $sectionnth-child-three;
 }
 
-/* line 37 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 46 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(4) {
   top: 50%;
   left: 50%;
   background: $sectionnth-child-four;
 }
 
-/* line 42 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 51 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-box {
   position: relative;
   width: 100%;
@@ -70,7 +75,7 @@
 /* Centering with flexbox */
 }
 
-/* line 49 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 58 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 display -webkit-box,
 display -moz-box,
 display -ms-flexbox,
@@ -101,11 +106,11 @@ align-items center,
   font-weight: 300;
 }
 
-/* line 79 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 88 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section .bl-icon-close {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 15px;
+  right: 15px;
   cursor: pointer;
   z-index: 100;
   opacity: 0;
@@ -113,25 +118,30 @@ align-items center,
   font-size: 21px;
 }
 
-/* line 89 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 98 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-content .container {
+  padding: 15px;
+}
+
+/* line 101 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content,
 div.bl-panel-items > div > div {
   opacity: 0;
   pointer-events: none;
   position: absolute;
   top: 60px;
-  left: 30px;
-  right: 30px;
+  left: 0px;
+  right: 0px;
   bottom: 30px;
-  padding: 0 20px;
+  padding: 0 15px;
   overflow: hidden;
   overflow-y: auto;
 }
 
-/* line 102 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 114 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 /* Custom content */
 
-/* line 104 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 116 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content p {
   margin: 0 auto;
   padding-bottom: 15px;
@@ -139,54 +149,53 @@ div.bl-panel-items > div > div {
   font-weight: 300;
 }
 
-/* line 111 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 123 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content h2 {
   font-size: 36px;
   font-weight: 300;
   margin: 0 0 20px 0;
 }
 
-/* line 116 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 128 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 122 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 134 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul li {
   display: inline-block;
   width: 20%;
   margin: 1%;
 }
 
-/* line 128 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 140 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul li a {
   display: block;
   padding: 0;
-  border: 8px solid rgba(0,0,0,0.1);
 }
 
-/* line 134 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul li a img {
   display: block;
   max-width: 100%;
 }
 
-/* line 138 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 149 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 /* Transition classes and properties */
 
-/* line 139 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 150 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 /* Separated for a better overview and control */
 
-/* line 141 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 152 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-/* line 146 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 157 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section.bl-expand {
   width: 100%;
   height: calc(100% - 45px);
@@ -194,32 +203,32 @@ div.bl-panel-items > div > div {
   left: 0;
 }
 
-/* line 152 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 163 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section.bl-expand-top {
   z-index: 100;
 }
 
-/* line 155 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 166 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:first-child.bl-expand {
   background: $first-child-bl-expand;
 }
 
-/* line 158 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 169 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(2).bl-expand {
   background: $nth-child-two-bl-expand;
 }
 
-/* line 161 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 172 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(3).bl-expand {
   background: $nth-child-three-bl-expand;
 }
 
-/* line 164 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 175 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(4).bl-expand {
   background: $nth-child-four-bl-expand;
 }
 
-/* line 167 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 178 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
   -webkit-transform: scale(0.5);
@@ -229,14 +238,14 @@ div.bl-panel-items > div > div {
   opacity: 0;
 }
 
-/* line 175 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 186 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-box {
   -webkit-transition: opacity 0.2s linear 0.5s;
   -moz-transition: opacity 0.2s linear 0.5s;
   transition: opacity 0.2s linear 0.5s;
 }
 
-/* line 180 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 191 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 section.bl-expand .bl-box {
   opacity: 0;
   -webkit-transition: opacity 0s linear;
@@ -244,14 +253,14 @@ section.bl-expand .bl-box {
   transition: opacity 0s linear;
 }
 
-/* line 186 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 197 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-box h2 {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-/* line 191 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 202 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .no-touch section:not(.bl-expand) .bl-box:hover h2 {
   -webkit-transform: translateY(-15px);
   -moz-transform: translateY(-15px);
@@ -259,7 +268,7 @@ section.bl-expand .bl-box {
   transform: translateY(-15px);
 }
 
-/* line 197 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 208 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content,
 .bl-icon-close {
   -webkit-transition: opacity 0.1s linear 0s;
@@ -267,7 +276,7 @@ section.bl-expand .bl-box {
   transition: opacity 0.1s linear 0s;
 }
 
-/* line 203 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 214 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close {
   pointer-events: auto;
@@ -276,120 +285,3 @@ section.bl-expand .bl-icon-close {
   -moz-transition: opacity 0.3s linear 0.5s;
   transition: opacity 0.3s linear 0.5s;
 }
-
-/* line 211 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
-/* Slide Up Inner Panel Items CSS
-
-div.bl-panel-items,
-div.bl-panel-items > div
-	width 100%
-	height calc(100% - 45px)
-	top 0
-	left 0
-	position absolute
-
-
-div.bl-panel-items > div > div
-	width 60%
-	margin 0 auto
-	opacity 1
-	bottom 90px
-	top 90px
-	pointer-events auto
-
-
-div.bl-panel-items > div > div h3
-	font-size 2.4em
-	font-weight 300
-	margin 0 0 20px 0
-
-
-div.bl-panel-items > div > div p
-	font-size 1.3em
-
-
-div.bl-panel-items > div > div img
-	float left
-	margin 0 20px 20px 0
-	max-width 100%
-
-
-div.bl-panel-items
-	top 100%
-	z-index 9999
-
-
-div.bl-panel-items > div
-	background #999
-	z-index 0
-	opacity 0
-	-webkit-transform translateY(0)
-	-webkit-transition -webkit-transform 0.5s ease-in-out, opacity 0s linear 0.5s
-	-moz-transform translateY(0)
-	-moz-transition -moz-transform 0.5s ease-in-out, opacity 0s linear 0.5s
-	transform translateY(0)
-	transition transform 0.5s ease-in-out, opacity 0s linear 0.5s
-	-ms-transform translateY(0)
-
-
-div.bl-panel-items nav
-	position absolute
-	z-index 9999
-	width 100%px
-	left 0px
-	right 0px
-	top 0px
-	opacity 0
-	-webkit-transition opacity 0.2s ease-in-out 0.5s
-	-moz-transition opacity 0.2s ease-in-out 0.5s
-	transition opacity 0.2s ease-in-out 0.5s
-
-
-div.bl-panel-items.bl-panel-items-show nav span
-	font-size 21px
-	margin-left 15px
-
-
-div.bl-panel-items nav span.bl-next-work
-	font-weight 700
-	letter-spacing 2px
-	display block
-	text-transform uppercase
-	line-height 2em
-	cursor pointer
-	margin-right 2em
-
-
-div.bl-panel-items.bl-panel-items-show nav
-	width 100%
-	z-index 1000
-	opacity 1
-	top 762px
-	position fixed
-	background-color red
-
-
-div.bl-panel-items > div.bl-show-work
-	z-index 1000
-	opacity 1
-	-webkit-transform translateY(-100%)
-	-webkit-transition -webkit-transform 0.5s ease-in-out
-	-moz-transform translateY(-100%)
-	-moz-transition -moz-transform 0.5s ease-in-out
-	transform translateY(-100%)
-	transition transform 0.5s ease-in-out
-	-ms-transform translateY(-100%)
-
-
-div.bl-panel-items > div.bl-hide-current-work
-	opacity 0
-	-webkit-transition -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out
-	-webkit-transform translateY(-100%) scale(0.5)
-	-moz-transition -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out
-	-moz-transform translateY(-100%) scale(0.5)
-	transition transform 0.5s ease-in-out, opacity 0.5s ease-in-out
-	transform translateY(-100%) scale(0.5)
-	-ms-transform translateY(-100%) scale(0.5)
-	z-index 0
-
-*/

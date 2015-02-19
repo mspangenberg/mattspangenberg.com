@@ -1,16 +1,9 @@
 
-/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
 
 /* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
 
-/* line 59 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
-/*
-==========================================================================
-Polygon First Slide Background
-==========================================================================
-*/
-
-/* line 7 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
 .polygon {
   position: absolute;
   height: 100%;
@@ -19,7 +12,7 @@ Polygon First Slide Background
   z-index: 0;
 }
 
-/* line 14 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 12 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
 .overlay {
   pointer-events: none;
   position: absolute;
@@ -29,7 +22,7 @@ Polygon First Slide Background
   top: 0;
 }
 
-/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
 .noise {
   background-image: url("../img/noise.png");
   opacity: 0.15;

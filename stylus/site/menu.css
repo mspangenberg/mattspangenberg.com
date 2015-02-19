@@ -1,16 +1,9 @@
 
-/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 
 /* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
 
-/* line 25 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/*
-==========================================================================
-Global Navigation Menu
-==========================================================================
-*/
-
-/* line 7 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #nav-background {
   height: 0px;
   background-color: transparent;
@@ -27,30 +20,30 @@ Global Navigation Menu
   margin: 0 auto;
 }
 
-/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .nav-background-visible {
   height: 45px !important;
   background-color: $nav-background !important;
 }
 
-/* line 26 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 24 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar {
   position: fixed;
   z-index: 101;
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 45px;
-  min-height: 45px;
+  height: 0px;
+  min-height: 0px;
   margin: 0;
   padding: 0;
   line-height: 44px;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   background-image: none;
   background-color: transparent !important;
   border-radius: 0px;
@@ -58,10 +51,12 @@ Global Navigation Menu
   border: none;
 }
 
-/* line 50 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 48 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar-visible {
   visibility: visible !important;
   opacity: 1 !important;
+  height: 45px !important;
+  min-height: 45px !important;
 }
 
 /* line 54 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
@@ -172,68 +167,46 @@ Global Navigation Menu
   color: $nav-active-color;
 }
 
-/* line 126 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/*
-==========================================================================
-Media Queries
-==========================================================================
-*/
-
-/* line 132 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/* Extra Small devices (up to 479px) */
-
-/* line 133 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 131 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 @media (max-width: 479px) {
 
-/* line 135 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 133 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
   .test {
     font-size: 14px;
   }
 }
 
-/* line 138 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/* Medium Small devices (tablets, 480px and up) */
-
-/* line 139 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 137 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 @media (min-width: 480px) and (max-width: 767px) {
 
-/* line 141 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 139 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
   .test {
     font-size: 14px;
   }
 }
 
-/* line 144 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/* Small devices (tablets, 768px and up) */
-
-/* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 143 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 @media (min-width: 768px) and (max-width: 991px) {
 
-/* line 147 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
   .test {
     font-size: 14px;
   }
 }
 
-/* line 150 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/* Medium devices (desktops, 992px and up) */
-
-/* line 151 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 149 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-/* line 153 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 151 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
   .test {
     font-size: 14px;
   }
 }
 
-/* line 156 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
-/* Large devices (large desktops, 1200px and up) */
-
-/* line 157 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 155 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 @media (min-width: 1200px) {
 
-/* line 159 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 157 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
   .test {
     font-size: 14px;
   }
