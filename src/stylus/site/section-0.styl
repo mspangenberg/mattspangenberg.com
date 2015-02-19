@@ -1,15 +1,9 @@
-/*
-==========================================================================
-Home Section 0 Styles
-==========================================================================
-*/
+// ==========================================================================
+// Home Section
+// ==========================================================================
 
 #section0
-    -webkit-transition all 0.3s ease-out
-    -moz-transition all 0.3s ease-out
-    -o-transition all 0.3s ease-out
-    transition all 0.3s ease-out
-    -webkit-animation-delay 0.6s
+    animation-duration 0.45s
     animation-delay 0.6s
 
 #section0 .container
@@ -66,6 +60,9 @@ Home Section 0 Styles
     width 100%
     margin-top 15px
 
+.height-minus-nav
+    height calc(100% - 45px)
+
 #img-profile
     height 190px
     width 190px
@@ -102,7 +99,7 @@ Home Section 0 Styles
 #links-social
     position absolute
     bottom 15px
-    right 0
+    right 20px
 
 .icn-social
     display inline-block
@@ -116,9 +113,10 @@ Home Section 0 Styles
     margin 15px 5px 5px
 
 #angle-down
-    width 100%
+    width 60px
+    height 60px
     position absolute
-    bottom 30px
+    bottom 15px
     right 0
     left 0
     margin: 0 auto;
@@ -128,18 +126,20 @@ Home Section 0 Styles
 
 #angle-down i
     text-align center
-    width 100%
-    height 60px
-    line-height 60px
+    bottom 0
+    position absolute
+    text-align center
+    right 0
+    left 0
+    margin 0 auto
 
 
-/*
-==========================================================================
-Media Queries
-==========================================================================
-*/
 
-/* Extra Small devices (up to 479px) */
+// ==========================================================================
+// Media Queries Example
+// ==========================================================================
+
+// Extra Small devices (up to 479px)
 @media (max-width: 479px)
 
     #section-0-h1
@@ -150,7 +150,7 @@ Media Queries
         left 0
         margin 0 auto
 
-/* Medium Small devices (tablets, 480px and up) */
+// Medium Small devices (tablets, 480px and up)
 @media (min-width: 480px) and (max-width: 767px)
 
     #section0-content
@@ -161,19 +161,19 @@ Media Queries
         left 0
         margin 0 auto
 
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px)
 
     .test
         font-size 14px
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px)
 
     .test
         font-size 14px
 
-/* Large devices (large desktops, 1200px and up) */
+// Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px)
 
     .test

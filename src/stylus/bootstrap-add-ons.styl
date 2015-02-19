@@ -1,9 +1,16 @@
+// ==========================================================================
+// Bootstrap 3 Add On Style Imports
+// ==========================================================================
+
+// Import Nib - Providing Robust Cross-Browser CSS3 Mixins
+@import 'nib'
+
+// Import 'bootstrap-add-ons' Folder Stylus Files
+import_tree('./bootstrap-add-ons')
+
 // Medium Small Grid Add-On for 480px - 767px
 // Extra Small Grid Override 0px - 379px
-@import "/bootstrap-add-ons/bootstrap-ms-extension.styl"
+// @import "/bootstrap-add-ons/bootstrap-ms-extension.styl"
 
 // Adds Text Alignmnet Classes for Individual Grid Sets Including Medium Small Grid Loaded Above
-@import "/bootstrap-add-ons/bootstrap-grid-text-alignments.styl"
-
-// Can be Used to Make Grid Fixed for Older Broswers
-// @import "/bootstrap-add-ons/bootstrap-ie-absolute-md-grid.styl"
+// @import "/bootstrap-add-ons/bootstrap-grid-text-alignments.styl"

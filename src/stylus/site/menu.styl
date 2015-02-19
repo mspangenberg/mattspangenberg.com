@@ -1,8 +1,6 @@
-/*
-==========================================================================
-Global Navigation Menu
-==========================================================================
-*/
+// ==========================================================================
+// Global Navigation Menu
+// ==========================================================================
 
 #nav-background
     height 0px
@@ -29,17 +27,17 @@ Global Navigation Menu
     top 0px
     left 0px
     right 0px
-    height 45px
-    min-height 45px
+    height 0px
+    min-height 0px
     margin 0
     padding 0
     line-height 44px
     visibility hidden
     opacity 0
-    -webkit-transition all 0.3s ease-out
-    -moz-transition all 0.3s ease-out
-    -o-transition all 0.3s ease-out
-    transition all 0.3s ease-out
+    -webkit-transition all 0.2s ease-out
+    -moz-transition all 0.2s ease-out
+    -o-transition all 0.2s ease-out
+    transition all 0.2s ease-out
 
     background-image none
     background-color transparent !important
@@ -50,6 +48,8 @@ Global Navigation Menu
 .navbar-visible
     visibility visible !important
     opacity 1 !important
+    height 45px !important
+    min-height 45px !important
 
 .navbar-default .navbar-brand
     color $nav-brand
@@ -123,37 +123,35 @@ Global Navigation Menu
 #menu li.active a
     color $nav-active-color
 
-/*
-==========================================================================
-Media Queries
-==========================================================================
-*/
+// ==========================================================================
+// Media Queries Example
+// ==========================================================================
 
-/* Extra Small devices (up to 479px) */
+// Extra Small devices (up to 479px)
 @media (max-width: 479px)
 
     .test
         font-size 14px
 
-/* Medium Small devices (tablets, 480px and up) */
+// Medium Small devices (tablets, 480px and up)
 @media (min-width: 480px) and (max-width: 767px)
 
     .test
         font-size 14px
 
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px)
 
     .test
         font-size 14px
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px)
 
     .test
         font-size 14px
 
-/* Large devices (large desktops, 1200px and up) */
+// Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px)
 
     .test

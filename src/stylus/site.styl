@@ -1,8 +1,6 @@
-/*
-==========================================================================
-Global Styles
-==========================================================================
-*/
+// ==========================================================================
+// Global Styles
+// ==========================================================================
 
 *
     font-family 'Lato', 'RobotoSlab-Thin', Arial, Helvetica, sans-serif !important
@@ -13,14 +11,20 @@ Global Styles
 body
     background-color #333
 
+.fa
+  font-family 'FontAwesome' !important
+
 #fullpage
     z-index 2
 
-/*
-==========================================================================
-Site Style Imports
-==========================================================================
-*/
+// ==========================================================================
+// Import Nib - Providing Robust Cross-Browser CSS3 Mixins
+// ==========================================================================
+@import 'nib'
+
+// ==========================================================================
+// Site Style Imports
+// ==========================================================================
 
 // Variables
 @import "site/variables.styl"
@@ -34,20 +38,22 @@ Site Style Imports
 // Global Navigation Menu
 @import "site/menu.styl"
 
-// Section 0
+// Home Section
 @import "site/section-0.styl"
 
-// Section 1
+// Featured Section
 @import "site/section-1.styl"
 
-// Section 3
+// Experience Section
+@import "site/section-2.styl"
+
+// Skills Section
 @import "site/section-3.styl"
 
-/*
-==========================================================================
-Moving Image Test
-==========================================================================
-*/
+
+// ==========================================================================
+// Moving Image Test
+// ==========================================================================
 
 .full-slide-height
     height 100%
@@ -85,37 +91,36 @@ Moving Image Test
     -ms-transform translate3d(0px, -100px, 0px)
     transform translate3d(0px, -100px, 0px)
 
-/*
-==========================================================================
-Media Queries Example
-==========================================================================
-*/
 
-/* Extra Small devices (up to 479px) */
+// ==========================================================================
+// Media Queries Example
+// ==========================================================================
+
+// Extra Small devices (up to 479px)
 @media (max-width: 479px)
 
     .test
         font-size 14px
 
-/* Medium Small devices (tablets, 480px and up) */
+// Medium Small devices (tablets, 480px and up)
 @media (min-width: 480px) and (max-width: 767px)
 
     .test
         font-size 14px
 
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px)
 
     .test
         font-size 14px
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px)
 
     .test
         font-size 14px
 
-/* Large devices (large desktops, 1200px and up) */
+// Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px)
 
     .test

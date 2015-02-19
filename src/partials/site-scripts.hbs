@@ -1,8 +1,3 @@
-<script>
-    // var html = FistWallet.templates.home({ some: data })
-    // $("body").html(html);
-</script>
-
 <!-- jQuery -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
@@ -129,14 +124,26 @@
 		$(".bl-box").click(function(e) {
 			e.preventDefault();
 			$.fn.fullpage.setAllowScrolling(false);
-			$(".navbar").removeClass("navbar-visible");
-			$("#nav-background").removeClass("nav-background-visible");
+			$(".navbar, #nav-background").removeClass("navbar-visible nav-background-visible");
 		});
 		$(".bl-section-close").click(function(e) {
 			e.preventDefault();
 			$.fn.fullpage.setAllowScrolling(true);
-			$(".navbar").addClass("navbar-visible");
-			$("#nav-background").addClass("nav-background-visible");
+			$(".navbar, #nav-background").addClass("navbar-visible nav-background-visible");
+		});
+
+		$(".trigger-grow-bl-main").click(function() {
+			$(".bl-main").css({
+		        "height": '100%',
+		        "top": '0'
+		    });
+		});
+
+		$(".trigger-shrink-bl-main").click(function() {
+			$(".bl-main").css({
+		        "height": 'calc(100% - 45px)',
+		        "top": '45px'
+		    });
 		});
 
 
