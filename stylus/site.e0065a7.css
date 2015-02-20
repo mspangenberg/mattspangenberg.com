@@ -114,7 +114,7 @@ body {
 
 /* line 6 : /Users/mspangenberg/github/portfolio/src/stylus/site/variables.styl */
 
-/* line 51 : /Users/mspangenberg/github/portfolio/src/stylus/site/variables.styl */
+/* line 61 : /Users/mspangenberg/github/portfolio/src/stylus/site/variables.styl */
 
 /* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
 
@@ -600,10 +600,11 @@ li {
   font-weight: 500;
   text-shadow: #333 0px 1px;
   text-transform: uppercase;
+  letter-spacing: 1px;
   margin-bottom: 0;
 }
 
-/* line 88 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 89 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 #section-0-h1 {
   margin-top: 5px;
   font-size: 36px;
@@ -611,21 +612,21 @@ li {
   text-shadow: #333 0px 2px;
 }
 
-/* line 94 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 95 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 #section-0-p {
   font-size: 16px;
   font-weight: 100;
   text-shadow: #333 0px 1px;
 }
 
-/* line 99 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 100 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 #links-social {
   position: absolute;
   bottom: 15px;
-  right: 20px;
+  right: 12px;
 }
 
-/* line 104 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 105 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 .icn-social {
   display: inline-block;
   height: 60px;
@@ -639,16 +640,17 @@ li {
   margin: 15px 5px 5px;
 }
 
-/* line 115 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 116 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 #angle-down {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   position: absolute;
   bottom: 15px;
   right: 0;
   left: 0;
   margin: 0 auto;
   font-size: 30px;
+  cursor: pointer;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
@@ -657,7 +659,7 @@ li {
   animation-iteration-count: infinite;
 }
 
-/* line 127 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 129 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 #angle-down i {
   text-align: center;
   bottom: 0;
@@ -669,26 +671,48 @@ li {
 }
 @media (max-width: 479px) {
 
-/* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 147 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   #section-0-h1 {
-    font-size: 32px;
+    font-size: 24px;
+    font-weight: 500;
   }
 
-/* line 148 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 151 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+  #section-0-p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+/* line 155 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+  #img-profile {
+    height: 150px;
+    width: 150px;
+    top: calc(50% - 75px);
+  }
+
+/* line 160 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   #links-social {
-    bottom: 120px;
+    bottom: -15px;
+    right: 5px;
     left: 0;
     margin: 0 auto;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
 
-/* line 156 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 169 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   #section0-content {
     margin-top: 90px;
   }
 
-/* line 159 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 172 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+  #img-profile {
+    height: 150px;
+    width: 150px;
+    top: calc(50% - 75px);
+  }
+
+/* line 177 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   #links-social {
     bottom: 120px;
     left: 0;
@@ -697,27 +721,27 @@ li {
 }
 @media (min-width: 768px) and (max-width: 991px) {
 
-/* line 167 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 185 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   .test {
     font-size: 14px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
-/* line 173 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 191 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   .test {
     font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
 
-/* line 179 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 197 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
   .test {
     font-size: 14px;
   }
 }
 
-/* line 181 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
+/* line 199 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-0.styl */
 
 /* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 
@@ -755,37 +779,119 @@ transition all 0.3s ease-out,
   position: absolute;
   width: 50%;
   height: 50%;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
 }
 
-/* line 31 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 34 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:first-child {
   top: 0;
   left: 0;
-  background: #333;
+  background: #eb4924;
+  background-image: url("../img/featured-thumb-box-1.e207f6d.png"), -webkit-linear-gradient(315deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-1.e207f6d.png"), -moz-linear-gradient(315deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-1.e207f6d.png"), -o-linear-gradient(315deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-1.e207f6d.png"), -ms-linear-gradient(315deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-1.e207f6d.png"), linear-gradient(135deg, #eb4924 0%, #e7982a 100%);
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-/* line 36 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 43 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(2) {
   top: 0;
   left: 50%;
-  background: #666;
-}
-
-/* line 41 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
-.bl-main > section:nth-child(3) {
-  top: 50%;
-  left: 0;
-  background: #666;
-}
-
-/* line 46 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
-.bl-main > section:nth-child(4) {
-  top: 50%;
-  left: 50%;
-  background: #333;
+  background: #eb4924;
+  background-image: url("../img/featured-thumb-box-2.cc3d89a.png"), -webkit-linear-gradient(225deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-2.cc3d89a.png"), -moz-linear-gradient(225deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-2.cc3d89a.png"), -o-linear-gradient(225deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-2.cc3d89a.png"), -ms-linear-gradient(225deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-2.cc3d89a.png"), linear-gradient(225deg, #eb4924 0%, #e7982a 100%);
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 /* line 51 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-main > section:nth-child(3) {
+  top: 50%;
+  left: 0;
+  background: #eb4924;
+  background-image: url("../img/featured-thumb-box-3.cdae6ac.png"), -webkit-linear-gradient(45deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-3.cdae6ac.png"), -moz-linear-gradient(45deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-3.cdae6ac.png"), -o-linear-gradient(45deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-3.cdae6ac.png"), -ms-linear-gradient(45deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-3.cdae6ac.png"), linear-gradient(45deg, #eb4924 0%, #e7982a 100%);
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+/* line 59 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-main > section:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  background: #eb4924;
+  background-image: url("../img/featured-thumb-box-4.f73dcf3.png"), -webkit-linear-gradient(135deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-4.f73dcf3.png"), -moz-linear-gradient(135deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-4.f73dcf3.png"), -o-linear-gradient(135deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-4.f73dcf3.png"), -ms-linear-gradient(135deg, #eb4924 0%, #e7982a 100%);
+  background-image: url("../img/featured-thumb-box-4.f73dcf3.png"), linear-gradient(315deg, #eb4924 0%, #e7982a 100%);
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+/* line 67 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-main > section:first-child > .bl-box > h2 {
+  height: 100%;
+  background-color: rgba(235,73,36,0.6);
+  background-image: -webkit-linear-gradient(135deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -moz-linear-gradient(135deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -o-linear-gradient(135deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -ms-linear-gradient(135deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: linear-gradient(315deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+}
+
+/* line 72 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-main > section:nth-child(2) > .bl-box > h2 {
+  height: 100%;
+  background-color: rgba(235,73,36,0.6);
+  background-image: -webkit-linear-gradient(45deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -moz-linear-gradient(45deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -o-linear-gradient(45deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -ms-linear-gradient(45deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: linear-gradient(45deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+}
+
+/* line 77 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-main > section:nth-child(3) > .bl-box > h2 {
+  height: 100%;
+  background-color: rgba(235,73,36,0.6);
+  background-image: -webkit-linear-gradient(225deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -moz-linear-gradient(225deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -o-linear-gradient(225deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -ms-linear-gradient(225deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: linear-gradient(225deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+}
+
+/* line 82 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+.bl-main > section:nth-child(4) > .bl-box > h2 {
+  height: 100%;
+  background-color: rgba(235,73,36,0.6);
+  background-image: -webkit-linear-gradient(315deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -moz-linear-gradient(315deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -o-linear-gradient(315deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: -ms-linear-gradient(315deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+  background-image: linear-gradient(135deg, rgba(235,73,36,0.56) 0%, rgba(231,152,42,0.56) 100%);
+}
+
+/* line 87 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-box {
   position: relative;
   width: 100%;
@@ -794,10 +900,9 @@ transition all 0.3s ease-out,
   opacity: 1;
   -ms-filter: none;
   filter: none;
-/* Centering with flexbox */
 }
 
-/* line 58 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 93 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 display -webkit-box,
 display -moz-box,
 display -ms-flexbox,
@@ -822,13 +927,13 @@ align-items center,
 .bl-box h2 {
   text-align: center;
   margin: 0;
-  padding: 20px;
+  padding: 30% 0px;
   width: 100%;
   font-size: 32px;
   font-weight: 300;
 }
 
-/* line 88 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 123 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section .bl-icon-close {
   position: absolute;
   top: 15px;
@@ -842,12 +947,12 @@ align-items center,
   font-size: 21px;
 }
 
-/* line 98 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 133 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content .container {
   padding: 15px;
 }
 
-/* line 101 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 136 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content,
 div.bl-panel-items > div > div {
   opacity: 0;
@@ -855,16 +960,16 @@ div.bl-panel-items > div > div {
   filter: alpha(opacity=0);
   pointer-events: none;
   position: absolute;
-  top: 60px;
+  top: 0px;
   left: 0px;
   right: 0px;
-  bottom: 30px;
+  bottom: 0px;
   padding: 0 15px;
   overflow: hidden;
   overflow-y: auto;
 }
 
-/* line 116 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 149 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content p {
   margin: 0 auto;
   padding-bottom: 15px;
@@ -872,40 +977,40 @@ div.bl-panel-items > div > div {
   font-weight: 300;
 }
 
-/* line 123 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 156 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content h2 {
   font-size: 36px;
   font-weight: 300;
   margin: 0 0 20px 0;
 }
 
-/* line 128 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 161 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 134 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 167 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul li {
   display: inline-block;
   width: 20%;
   margin: 1%;
 }
 
-/* line 140 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 173 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul li a {
   display: block;
   padding: 0;
 }
 
-/* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 178 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content > ul li a img {
   display: block;
   max-width: 100%;
 }
 
-/* line 152 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 185 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -916,7 +1021,7 @@ div.bl-panel-items > div > div {
   transition: all 0.5s ease-in-out;
 }
 
-/* line 157 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 190 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section.bl-expand {
   width: 100%;
   height: calc(100% - 45px);
@@ -924,32 +1029,42 @@ div.bl-panel-items > div > div {
   left: 0;
 }
 
-/* line 163 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 196 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section.bl-expand-top {
   z-index: 100;
 }
 
-/* line 166 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 199 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:first-child.bl-expand {
   background: #333;
+  background-image: none;
+  border: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-/* line 169 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 205 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(2).bl-expand {
   background: #666;
+  border: none;
 }
 
-/* line 172 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 209 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(3).bl-expand {
   background: #666;
+  border: none;
 }
 
-/* line 175 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 213 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main > section:nth-child(4).bl-expand {
   background: #333;
+  border: none;
 }
 
-/* line 178 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 217 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
   -webkit-transform: scale(0.5);
@@ -965,7 +1080,7 @@ div.bl-panel-items > div > div {
   filter: alpha(opacity=0);
 }
 
-/* line 186 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 225 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-box {
   -webkit-transition: opacity 0.2s linear 0.5s;
   -moz-transition: opacity 0.2s linear 0.5s;
@@ -976,7 +1091,7 @@ div.bl-panel-items > div > div {
   transition: opacity 0.2s linear 0.5s;
 }
 
-/* line 191 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 230 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 section.bl-expand .bl-box {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -990,7 +1105,7 @@ section.bl-expand .bl-box {
   transition: opacity 0s linear;
 }
 
-/* line 197 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 236 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-box h2 {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1001,19 +1116,19 @@ section.bl-expand .bl-box {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 202 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 241 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .no-touch section:not(.bl-expand) .bl-box:hover h2 {
-  -webkit-transform: translateY(-15px);
-  -moz-transform: translateY(-15px);
-  -ms-transform: translateY(-15px);
-  -webkit-transform: translateY(-15px);
-  -moz-transform: translateY(-15px);
-  -o-transform: translateY(-15px);
-  -ms-transform: translateY(-15px);
-  transform: translateY(-15px);
+  -webkit-transform: translateY(75%);
+  -moz-transform: translateY(75%);
+  -ms-transform: translateY(75%);
+  -webkit-transform: translateY(75%);
+  -moz-transform: translateY(75%);
+  -o-transform: translateY(75%);
+  -ms-transform: translateY(75%);
+  transform: translateY(75%);
 }
 
-/* line 208 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 247 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 .bl-content,
 .bl-icon-close {
   -webkit-transition: opacity 0.1s linear 0s;
@@ -1025,7 +1140,7 @@ section.bl-expand .bl-box {
   transition: opacity 0.1s linear 0s;
 }
 
-/* line 214 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 253 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close {
   pointer-events: auto;
@@ -1041,9 +1156,9 @@ section.bl-expand .bl-icon-close {
   transition: opacity 0.3s linear 0.5s;
 }
 
-/* line 328 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
+/* line 366 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-1.styl */
 
-/* line 328 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 366 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
 
 /* line 4 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
 
