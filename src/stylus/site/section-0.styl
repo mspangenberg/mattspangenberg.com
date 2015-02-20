@@ -82,8 +82,9 @@
     font-size 14px
     font-weight 500
     text-shadow $home-text-shadows 0px 1px
-    text-transform: uppercase;
-    margin-bottom: 0;
+    text-transform uppercase
+    letter-spacing 1px
+    margin-bottom 0
 
 #section-0-h1
     margin-top 5px
@@ -99,7 +100,7 @@
 #links-social
     position absolute
     bottom 15px
-    right 20px
+    right 12px
 
 .icn-social
     display inline-block
@@ -113,14 +114,15 @@
     margin 15px 5px 5px
 
 #angle-down
-    width 60px
-    height 60px
+    width 90px
+    height 90px
     position absolute
     bottom 15px
     right 0
     left 0
     margin: 0 auto;
     font-size 30px
+    cursor pointer
     -webkit-animation-iteration-count infinite
     animation-iteration-count infinite
 
@@ -143,10 +145,21 @@
 @media (max-width: 479px)
 
     #section-0-h1
-        font-size 32px
+        font-size 24px
+        font-weight 500
+
+    #section-0-p
+        font-size 14px
+        font-weight 500
+
+    #img-profile
+        height 150px
+        width 150px
+        top calc(50% - 75px)
 
     #links-social
-        bottom 120px
+        bottom -15px
+        right 5px
         left 0
         margin 0 auto
 
@@ -155,6 +168,11 @@
 
     #section0-content
         margin-top 90px
+
+    #img-profile
+        height 150px
+        width 150px
+        top calc(50% - 75px)
 
     #links-social
         bottom 120px
