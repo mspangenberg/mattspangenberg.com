@@ -5,21 +5,21 @@
 
 /* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
 .polygon {
-  position: absolute;
   height: 100%;
-  width: 100%;
+  position: absolute;
   top: 0;
+  width: 100%;
   z-index: 0;
 }
 
 /* line 12 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
 .overlay {
+  height: 100%;
+  left: 0;
   pointer-events: none;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
   top: 0;
+  width: 100%;
 }
 
 /* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */

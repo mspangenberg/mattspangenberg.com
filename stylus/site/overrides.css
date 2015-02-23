@@ -16,28 +16,27 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 13 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 14 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
 ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-/* line 17 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 18 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
 li {
   list-style: none;
 }
 
-/* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 21 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
 .no-style {
   background-color: transparent !important;
   background-image: none !important;
   border: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
   list-style: none !important;
   text-decoration: none !important;
-  border: none !important;
-  border-radius: 0px !important;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
 }
 
 /* line 31 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
@@ -84,16 +83,10 @@ li {
 
 /* line 57 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
 .transition-all {
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
-/* line 63 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 60 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
 .transition-background {
-  -webkit-transition: background 0.4s ease;
-  -moz-transition: background 0.4s ease;
-  -o-transition: background 0.4s ease;
   transition: background 0.4s ease;
 }
