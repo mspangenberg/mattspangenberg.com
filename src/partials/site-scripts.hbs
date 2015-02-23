@@ -1,10 +1,42 @@
-<!-- jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Preloader JS -->
+<script type="text/javascript">
+    $(window).load(function(){
 
-<!-- jQuery UI -->
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        var $loaderCont = $('#loader-cont');
+        var $loaderBar = $('.loader-bar', $loaderCont);
+
+        var loader = new PreloadJS();
+        loader.onProgress = handleProgress;
+        loader.loadManifest([
+        	{id: '0', src: '/img/noise.png'},
+            {id: '1', src: '/img/img-mspangenberg-ux-designer.png'},
+            {id: '2', src: '/img/featured-thumb-box-1.jpg'},
+            {id: '3', src: '/img/featured-thumb-box-2.jpg'},
+            {id: '4', src: '/img/featured-thumb-box-3.jpg'},
+            {id: '5', src: '/img/featured-thumb-box-4.jpg'},
+            {id: '6', src: '/img/su.svg'},
+            {id: '7', src: '/img/intrinsik-media.svg'},
+            {id: '8', src: '/img/jwt.svg'},
+            {id: '9', src: '/img/luice-design.svg'}
+        ]);
+        loader.onComplete = handleLoadComplete;
+        loader.load();
+
+		$.fn.fullpage.setAllowScrolling(false);
+
+        function handleProgress() {
+            //console.log(this.progress);
+            var percent = Math.floor(this.progress * 100);
+            $loaderBar.css({width: percent+'%'});
+        }
+
+        function handleLoadComplete() {
+            $('#loader').addClass('animated fadeOut hide');
+            $('#fullpage').addClass('show');
+            $.fn.fullpage.setAllowScrolling(true);
+        }
+    });
+</script>
 
 <!-- Bootstrap v3.2.0 JS -->
 <script src="vendor/bootstrap-v3.2.0-dist/js/bootstrap.min.js"></script>

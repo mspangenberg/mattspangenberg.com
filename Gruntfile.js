@@ -107,7 +107,6 @@ module.exports = function (grunt) {
 			files: {
 				src: [
 					'<%= settings.dir.dist %>/stylus/*.css',
-					'<%= settings.dir.dist %>/img/*.png',
 					'<%= settings.dir.dist %>/js/*.js',
 					'!<%= settings.dir.dist %>/js/jquery*.min.js'
 				]
