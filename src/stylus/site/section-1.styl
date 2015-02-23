@@ -32,7 +32,7 @@
 
 .bl-main > section:first-child
 	background $sectionfirst-child
-	background-image url($sectionfirst-child-bg-url), $sectionfirst-child-gradient
+	background-image url($sectionfirst-child-bg-url)
 	border-bottom 1px solid $white-hex
 	border-right 1px solid $white-hex
 	left 0px
@@ -41,7 +41,7 @@
 
 .bl-main > section:nth-child(2)
 	background $sectionnth-child-two
-	background-image url($sectionnth-child-two-bg-url), $sectionnth-child-two-gradient
+	background-image url($sectionnth-child-two-bg-url)
 	border-bottom 1px solid $white-hex
 	border-left 1px solid $white-hex
 	left 50%
@@ -50,7 +50,7 @@
 
 .bl-main > section:nth-child(3)
 	background $sectionnth-child-three
-	background-image url($sectionnth-child-three-bg-url), $sectionnth-child-three-gradient
+	background-image url($sectionnth-child-three-bg-url)
 	border-right 1px solid $white-hex
 	border-top 1px solid $white-hex
 	left 0px
@@ -59,7 +59,7 @@
 
 .bl-main > section:nth-child(4)
 	background $sectionnth-child-four
-	background-image url($sectionnth-child-four-bg-url), $sectionnth-child-four-gradient
+	background-image url($sectionnth-child-four-bg-url)
 	border-left 1px solid $white-hex
 	border-top 1px solid $white-hex
 	left 50%
@@ -71,7 +71,7 @@
 	-webkit-align-items center
 	-ms-flex-align center
 	align-items center
-	background-image $section-overlay
+	background-color $section-overlay
 	cursor pointer
 	height 100%
 	-webkit-flex-direction row
@@ -101,7 +101,7 @@
 	margin 0px
 	text-align center
 	width 100%
-	text-shadow $section-h2-text-shadow 0px 1px
+	text-shadow $section-h2-text-shadow 0px 2px
 	transition all 0.2s ease-in-out
 
 .bl-main > section .bl-icon-close
@@ -113,9 +113,6 @@
 	right 15px
 	top 15px
 	z-index 100
-
-.bl-content .container
-	padding 15px
 
 .bl-content,
 div.bl-panel-items > div > div
@@ -137,23 +134,20 @@ div.bl-panel-items > div > div
 	padding-bottom 15px
 
 .bl-content h2
-	font-size 36px
+	font-size 64px
 	font-weight 300
+	left 0
 	margin 0px 0px 20px 0px
+	position absolute
+	right 0px
+	text-shadow #000 0px 1px
+	top -250px
 
-.bl-content > ul
-	list-style none
-	margin 0px
-	padding 0px
-
-.bl-content > ul li
-	display inline-block
-	margin 1%
-	width 20%
-
-.bl-content > ul li a
-	display block
-	padding 0px
+.bl-content .container
+	background-color #333
+	margin-top 30%
+	min-height 100%
+	padding 15px
 
 .bl-main > section.bl-expand
 	height -moz-calc(100% - 45px)
@@ -168,19 +162,19 @@ div.bl-panel-items > div > div
 	z-index 100
 
 .bl-main > section:first-child.bl-expand
-	background $first-child-bl-expand
+	// background $first-child-bl-expand
 	border none
 
 .bl-main > section:nth-child(2).bl-expand
-	background $nth-child-two-bl-expand
+	// background $nth-child-two-bl-expand
 	border none
 
 .bl-main > section:nth-child(3).bl-expand
-	background $nth-child-three-bl-expand
+	// background $nth-child-three-bl-expand
 	border none
 
 .bl-main > section:nth-child(4).bl-expand
-	background $nth-child-four-bl-expand
+	// background $nth-child-four-bl-expand
 	border none
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
@@ -203,110 +197,4 @@ section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close
 	opacity 1
 	pointer-events auto
-	transition opacity 0.3s linear 0.5s
-
-// ==========================================================================
-// Slide Up Inner Panel Items CSS
-// ==========================================================================
-
-// div.bl-panel-items,
-// div.bl-panel-items > div
-// 	width 100%
-// 	height 100%
-// 	top 0
-// 	left 0
-// 	position absolute
-
-
-// div.bl-panel-items > div > div
-// 	width 100%
-// 	margin 0 auto
-// 	opacity 1
-// 	bottom 30px
-// 	top 90px
-// 	pointer-events auto
-
-// div.bl-panel-items > div > div h3
-// 	font-size 32px
-// 	font-weight 300
-// 	margin 0 0 20px 0
-
-
-// div.bl-panel-items > div > div p
-// 	font-size 18px
-
-// div.bl-panel-items
-// 	top 100%
-// 	z-index 9999
-
-
-// div.bl-panel-items > div
-// 	background $panel-bg
-// 	z-index 0
-// 	opacity 0
-// 	-webkit-transform translateY(0)
-// 	-webkit-transition -webkit-transform 0.5s ease-in-out, opacity 0s linear 0.5s
-// 	-moz-transform translateY(0)
-// 	-moz-transition -moz-transform 0.5s ease-in-out, opacity 0s linear 0.5s
-// 	transform translateY(0)
-// 	transition transform 0.5s ease-in-out, opacity 0s linear 0.5s
-// 	-ms-transform translateY(0)
-
-
-// div.bl-panel-items nav
-// 	position absolute
-// 	z-index 1001
-// 	width 100%
-// 	height 45px
-// 	left 0px
-// 	right 0px
-// 	top 0
-// 	margin 0 auto
-// 	opacity 0
-// 	-webkit-transition opacity 0.2s ease-in-out 0.2s
-// 	-moz-transition opacity 0.2s ease-in-out 0.2s
-// 	transition opacity 0.2s ease-in-out 0.2s
-
-
-// div.bl-panel-items.bl-panel-items-show nav span,
-// div.bl-panel-items.bl-panel-items-show nav span i
-// 	font-size 21px
-// 	margin 0 15px
-// 	color $panel-nav-text
-
-
-// div.bl-panel-items nav span.bl-next-work,
-// div.bl-panel-items nav span.bl-panel-close
-// 	font-weight 300
-// 	display block
-// 	line-height 45px
-// 	cursor pointer
-// 	margin 0 30px
-
-// div.bl-panel-items.bl-panel-items-show nav
-// 	opacity 1
-// 	background-color $panel-nav
-
-
-// div.bl-panel-items > div.bl-show-work
-// 	z-index 1000
-// 	opacity 1
-// 	-webkit-transform translateY(-100%)
-// 	-webkit-transition -webkit-transform 0.5s ease-in-out
-// 	-moz-transform translateY(-100%)
-// 	-moz-transition -moz-transform 0.5s ease-in-out
-// 	transform translateY(-100%)
-// 	transition transform 0.5s ease-in-out
-// 	-ms-transform translateY(-100%)
-
-
-// div.bl-panel-items > div.bl-hide-current-work
-// 	opacity 0
-// 	-webkit-transition -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out
-// 	-webkit-transform translateY(-100%) scale(0.5)
-// 	-moz-transition -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out
-// 	-moz-transform translateY(-100%) scale(0.5)
-// 	transition transform 0.5s ease-in-out, opacity 0.5s ease-in-out
-// 	transform translateY(-100%) scale(0.5)
-// 	-ms-transform translateY(-100%) scale(0.5)
-// 	z-index 0
+	transition opacity 0.3s linear 0.3s

@@ -50,7 +50,11 @@
 
 				// Experience Section 3 Animations
 				if(index == 3){
-					$('#iphone2').addClass('active');
+					// $('#iphone2').addClass('active');
+					$('.experience-timeline').removeClass('fadeOutRight');
+					$('.experience-container').removeClass('fadeOutDown');
+					$('.experience-timeline').addClass('animated fadeInRight');
+					$('.experience-container').addClass('animated fadeInUp');
 				}
 
 			},
@@ -84,7 +88,14 @@
 				}
 
 				// Experience 3 Animations
-				$('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
+				if(index == 3){
+					$('.experience-timeline').removeClass('fadeInRight');
+					$('.experience-container').removeClass('fadeInUp');
+					$('.experience-timeline').addClass('fadeOutRight');
+					$('.experience-container').addClass('fadeOutDown');
+				}
+
+				// $('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
 
 			},
 
@@ -125,26 +136,14 @@
 			e.preventDefault();
 			$.fn.fullpage.setAllowScrolling(false);
 			$(".navbar, #nav-background").removeClass("navbar-visible nav-background-visible");
+			$(".bl-content .container").addClass("animated fadeInUp");
 		});
 		$(".bl-section-close").click(function(e) {
 			e.preventDefault();
 			$.fn.fullpage.setAllowScrolling(true);
 			$(".navbar, #nav-background").addClass("navbar-visible nav-background-visible");
+			$(".bl-content .container").removeClass("animated fadeInUp");
 		});
-
-		// $(".trigger-grow-bl-main").click(function() {
-		// 	$(".bl-main").css({
-		//         "height": '100%',
-		//         "top": '0'
-		//     });
-		// });
-
-		// $(".trigger-shrink-bl-main").click(function() {
-		// 	$(".bl-main").css({
-		//         "height": 'calc(100% - 45px)',
-		//         "top": '45px'
-		//     });
-		// });
 
 	});
 </script>
