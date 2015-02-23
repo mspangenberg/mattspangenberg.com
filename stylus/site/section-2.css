@@ -2,3 +2,127 @@
 /* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
 
 /* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.fp-controlArrow {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 10 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-container {
+  opacity: 0;
+  top: -moz-calc(50% - 400px);
+  top: -webkit-calc(50% - 400px);
+  top: -o-calc(50% - 400px);
+  top: calc(50% - 400px);
+}
+
+/* line 17 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-timeline {
+  opacity: 0;
+}
+
+/* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.timestamp {
+  border: 1px solid #fff;
+  border-radius: 45px;
+  font-size: 12px;
+  font-weight: 500;
+  height: 90px;
+  left: 0px;
+  line-height: 90px;
+  margin: 75px auto 0;
+  position: relative;
+  right: 0px;
+  text-transform: uppercase;
+  width: 90px;
+}
+
+/* line 34 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.timeline-line-right {
+  background-color: #fff;
+  float: right;
+  height: 1px;
+  position: relative;
+  right: 0;
+  top: -45px;
+  width: -moz-calc(50% - 45px);
+  width: -webkit-calc(50% - 45px);
+  width: o-calc(5%);
+  width: calc(50% - 45px);
+}
+
+/* line 46 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.timeline-line-left {
+  background-color: #fff;
+  float: left;
+  height: 1px;
+  position: relative;
+  left: 0;
+  top: -45px;
+  width: -moz-calc(50% - 45px);
+  width: -webkit-calc(50% - 45px);
+  width: o-calc(5%);
+  width: calc(50% - 45px);
+}
+
+/* line 58 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-location {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 60px 0px 0px;
+}
+
+/* line 63 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-job {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0px 45px;
+}
+
+/* line 68 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-header {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 0px 5px;
+}
+
+/* line 73 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-text {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/* line 78 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+.experience-duties > li {
+  float: none;
+}
+
+/* line 81 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+#slide-one {
+  background: url("../img/su.svg") no-repeat center -45px;
+  background-color: #eb4924;
+}
+
+/* line 85 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+#slide-two {
+  background: url("../img/intrinsik-media.svg") no-repeat bottom right;
+  background-color: #5c6f7c;
+  background-size: 150% 150%;
+}
+
+/* line 90 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+#slide-three {
+  background: url("../img/jwt.svg") no-repeat center -205px;
+  background-color: #161c45;
+  background-size: 120% 120%;
+}
+
+/* line 95 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+#slide-four {
+  background: url("../img/luice-design.svg") no-repeat center -165px;
+  background-color: #af1117;
+}

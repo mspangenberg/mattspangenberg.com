@@ -15760,7 +15760,7 @@ body {
 /* line 141 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav li .active span,
 .fp-slidesNav .active span {
-  background: #333;
+  background: #fff;
 }
 
 /* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
@@ -15770,7 +15770,7 @@ body {
   left: 2px;
   width: 8px;
   height: 8px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   background: rgba(0,0,0,0);
   -webkit-border-radius: 50%;
   border-radius: 50%;
