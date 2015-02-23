@@ -1,0 +1,109 @@
+// ==========================================================================
+// Media Queries Example
+// ==========================================================================
+
+// Extra Small devices (up to 479px)
+@media (max-width: 479px)
+
+    // Menu
+    #menu li
+        margin 0px
+        width 100%
+
+    #menu li.active
+        background-color #ccc
+        border-bottom 1px solid #333
+        border-top 1px solid #333
+
+    .collapsing #menu li a, .navbar-collapse.in #menu li a
+        margin-top 0px
+
+    // Home Section
+    #section-0-h1
+        font-size 24px
+        font-weight 500
+
+    #section-0-p
+        font-size 14px
+        font-weight 500
+
+    #img-profile
+        height 150px
+        top -moz-calc(50% - 75px)
+        top -webkit-calc(50% - 75px)
+        top -o-calc(50% - 75px)
+        top calc(50% - 75px)
+        width 150px
+
+    #links-social
+        bottom -15px
+        left 0px
+        margin 0px auto
+        right 5px
+
+    // Featured Section
+    .bl-box h2
+        font-size 16px
+
+    .no-touch section:not(.bl-expand) .bl-box:hover h2
+        font-size 21px
+
+    .bl-content h2
+        font-size 28px
+
+    .bl-content h2
+        margin 30px 0px 20px 0px
+        position initial
+
+    // Experience Section
+    .experience-location
+        margin 210px 0px 0px
+
+// Medium Small devices (tablets, 480px and up)
+@media (min-width: 480px) and (max-width: 767px)
+
+    // Home Section
+    #section0-content
+        margin-top 90px
+
+    #img-profile
+        height 150px
+        top -moz-calc(50% - 75px)
+        top -webkit-calc(50% - 75px)
+        top -o-calc(50% - 75px)
+        top calc(50% - 75px)
+        width 150px
+
+    #links-social
+        bottom 120px
+        left 0px
+        margin 0px auto
+
+    // Featured Section
+    .bl-content h2
+        top -140px
+
+    // Experience Section
+    .experience-location
+        margin 0px
+
+    p.experience-text
+        margin-bottom 30px
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px)
+
+    .example
+        font-size 14px
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px)
+
+    .example
+        font-size 14px
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+
+    .example
+        font-size 14px
