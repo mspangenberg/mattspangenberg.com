@@ -5,202 +5,171 @@
 *,
 *:after,
 *:before
-	-webkit-box-sizing border-box
-	-moz-box-sizing border-box
 	box-sizing border-box
 
 .bl-main
-	position absolute
-	width 100%
+	height -moz-calc(100% - 45px)
+	height -webkit-calc(100% - 45px)
+	height -o-calc(100% - 45px)
 	height calc(100% - 45px)
 	overflow hidden
-	-webkit-transition all 0.3s ease-out
-    -moz-transition all 0.3s ease-out
-    -o-transition all 0.3s ease-out
-    transition all 0.3s ease-out
+	position absolute
+	transition all 0.3s ease-out
+	width 100%
 
 .grow-bl-main
 	height 100% !important
-	top 0 !important
+	top 0px !important
 
 .bl-main > section
-	position absolute
-	width 50%
-	height 50%
-	background-size cover !important
 	background-position center bottom !important
 	background-repeat no-repeat !important
+	background-size cover !important
+	height 50%
+	position absolute
+	transition all 0.5s ease-in-out
+	width 50%
 
 .bl-main > section:first-child
-	top 0
-	left 0
 	background $sectionfirst-child
 	background-image url($sectionfirst-child-bg-url), $sectionfirst-child-gradient
-	border-right 1px solid $white-hex
 	border-bottom 1px solid $white-hex
-	transition all 0.3s ease-out
+	border-right 1px solid $white-hex
+	left 0px
+	top 0px
+	transition all 0.3s linear
 
 .bl-main > section:nth-child(2)
-	top 0
-	left 50%
 	background $sectionnth-child-two
 	background-image url($sectionnth-child-two-bg-url), $sectionnth-child-two-gradient
-	border-left 1px solid $white-hex
 	border-bottom 1px solid $white-hex
+	border-left 1px solid $white-hex
+	left 50%
+	top 0px
+	transition all 0.3s linear
 
 .bl-main > section:nth-child(3)
-	top 50%
-	left 0
 	background $sectionnth-child-three
 	background-image url($sectionnth-child-three-bg-url), $sectionnth-child-three-gradient
 	border-right 1px solid $white-hex
 	border-top 1px solid $white-hex
+	left 0px
+	top 50%
+	transition all 0.3s linear
 
 .bl-main > section:nth-child(4)
-	top 50%
-	left 50%
 	background $sectionnth-child-four
 	background-image url($sectionnth-child-four-bg-url), $sectionnth-child-four-gradient
 	border-left 1px solid $white-hex
 	border-top 1px solid $white-hex
-
-.bl-main > section:first-child > .bl-box > h2
-	height 100%
-	background-color rgba(235,73,36,0.6)
-	background-image linear-gradient(315deg, rgba(235, 73, 36, 0.56) 0%, rgba(231, 152, 42, 0.56) 100%)
-
-.bl-main > section:nth-child(2) > .bl-box > h2
-	height 100%
-	background-color rgba(235,73,36,0.6)
-	background-image linear-gradient(45deg, rgba(235, 73, 36, 0.56) 0%, rgba(231, 152, 42, 0.56) 100%)
-
-.bl-main > section:nth-child(3) > .bl-box > h2
-	height 100%
-	background-color rgba(235,73,36,0.6)
-	background-image linear-gradient(225deg, rgba(235, 73, 36, 0.56) 0%, rgba(231, 152, 42, 0.56) 100%)
-
-.bl-main > section:nth-child(4) > .bl-box > h2
-	height 100%
-	background-color rgba(235,73,36,0.6)
-	background-image linear-gradient(135deg, rgba(235, 73, 36, 0.56) 0%, rgba(231, 152, 42, 0.56) 100%)
+	left 50%
+	top 50%
+	transition all 0.3s linear
 
 .bl-box
+	-moz-box-align center
+	-webkit-align-items center
+	-ms-flex-align center
+	align-items center
+	background-image $section-overlay
+	cursor pointer
+	height 100%
+	-webkit-flex-direction row
+	-ms-flex-direction row
+	flex-direction row
+	display -webkit-box
+	display -moz-box
+	display -ms-flexbox
+	display -webkit-flex
+	display flex
+	-webkit-flex-wrap wrap
+	-ms-flex-wrap wrap
+	flex-wrap wrap
+	-webkit-box-pack center
+	-moz-box-pack center
+	-webkit-justify-content center
+	-ms-flex-pack center
+	justify-content center
+	-webkit-box-align center
+	opacity 1
 	position relative
 	width 100%
-	height 100%
-	cursor pointer
-	opacity 1
-    display -webkit-box
-    display -moz-box
-    display -ms-flexbox
-    display -webkit-flex
-    display flex
-    -webkit-flex-direction row
-    -ms-flex-direction row
-    flex-direction row
-    -webkit-flex-wrap wrap
-    -ms-flex-wrap wrap
-    flex-wrap wrap
-    -webkit-box-pack center
-    -moz-box-pack center
-    -webkit-justify-content center
-    -ms-flex-pack center
-    justify-content center
-    -webkit-box-align center
-    -moz-box-align center
-    -webkit-align-items center
-    -ms-flex-align center
-    align-items center
 
 .bl-box h2
-	text-align: center
-	margin 0
-	padding 30% 0px
-	width 100%
 	font-size 32px
 	font-weight 300
+	margin 0px
+	text-align center
+	width 100%
+	text-shadow $section-h2-text-shadow 0px 1px
+	transition all 0.2s ease-in-out
 
 .bl-main > section .bl-icon-close
-	position absolute
-	top 15px
-	right 15px
 	cursor pointer
-	z-index 100
-	opacity 0
-	pointer-events none
 	font-size 21px
+	pointer-events none
+	position absolute
+	opacity 0
+	right 15px
+	top 15px
+	z-index 100
 
 .bl-content .container
 	padding 15px
 
 .bl-content,
 div.bl-panel-items > div > div
-	opacity 0
-	pointer-events none
-	position absolute
-	top 0px
-	left 0px
-	right 0px
 	bottom 0px
+	left 0px
 	padding 0 15px
+	opacity 0
 	overflow hidden
 	overflow-y auto
+	pointer-events none
+	position absolute
+	right 0px
+	top 0px
 
 .bl-content p
-	margin 0 auto
-	padding-bottom 15px
 	font-size 18px
 	font-weight 300
-
+	margin 0px auto
+	padding-bottom 15px
 
 .bl-content h2
 	font-size 36px
 	font-weight 300
-	margin 0 0 20px 0
+	margin 0px 0px 20px 0px
 
 .bl-content > ul
 	list-style none
-	padding 0
-	margin 0
-
+	margin 0px
+	padding 0px
 
 .bl-content > ul li
 	display inline-block
-	width 20%
 	margin 1%
-
+	width 20%
 
 .bl-content > ul li a
 	display block
-	padding 0
-
-
-.bl-content > ul li a img
-	display block
-	max-width 100%
-
-// Transition classes and properties
-// Separated for a better overview and control
-
-.bl-main > section
-	-webkit-transition all 0.5s ease-in-out
-	-moz-transition all 0.5s ease-in-out
-	transition all 0.5s ease-in-out
+	padding 0px
 
 .bl-main > section.bl-expand
-	width 100%
+	height -moz-calc(100% - 45px)
+	height -webkit-calc(100% - 45px)
+	height -o-calc(100% - 45px)
 	height calc(100% - 45px)
-	top 0
-	left 0
+	left 0px
+	top 0px
+	width 100%
 
 .bl-main > section.bl-expand-top
 	z-index 100
 
 .bl-main > section:first-child.bl-expand
 	background $first-child-bl-expand
-	background-image none
 	border none
-	transition all 0.3s ease-out
 
 .bl-main > section:nth-child(2).bl-expand
 	background $nth-child-two-bl-expand
@@ -216,46 +185,24 @@ div.bl-panel-items > div > div
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down
-	-webkit-transform scale(0.5)
-	-moz-transform scale(0.5)
-	-ms-transform scale(0.5)
-	transform scale(0.5)
 	opacity 0
-
-.bl-box
-	-webkit-transition opacity 0.2s linear 0.5s
-	-moz-transition opacity 0.2s linear 0.5s
-	transition opacity 0.2s linear 0.5s
+	transform scale(0.5)
 
 section.bl-expand .bl-box
 	opacity 0
-	-webkit-transition opacity 0s linear
-	-moz-transition opacity 0s linear
 	transition opacity 0s linear
 
-.bl-box h2
-	-webkit-transition all 0.2s ease-in-out
-	-moz-transition all 0.2s ease-in-out
-	transition all 0.2s ease-in-out
-
 .no-touch section:not(.bl-expand) .bl-box:hover h2
-	-webkit-transform translateY(75%)
-	-moz-transform translateY(75%)
-	-ms-transform translateY(75%)
-	transform translateY(75%)
+	font-size 36px
 
 .bl-content,
 .bl-icon-close
-	-webkit-transition opacity 0.1s linear 0s
-	-moz-transition opacity 0.1s linear 0s
 	transition opacity 0.1s linear 0s
 
 section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close
-	pointer-events auto
 	opacity 1
-	-webkit-transition opacity 0.3s linear 0.5s
-	-moz-transition opacity 0.3s linear 0.5s
+	pointer-events auto
 	transition opacity 0.3s linear 0.5s
 
 // ==========================================================================
