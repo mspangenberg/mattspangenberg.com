@@ -1,0 +1,151 @@
+
+/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+
+/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+
+/* line 6 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+@media (max-width: 479px) {
+
+/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #menu li {
+    margin: 0px;
+    width: 100%;
+  }
+
+/* line 13 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #menu li.active {
+    background-color: #ccc;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+  }
+
+/* line 18 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .collapsing #menu li a,
+  .navbar-collapse.in #menu li a {
+    margin-top: 0px;
+  }
+
+/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #section-0-h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+/* line 26 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #section-0-p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+/* line 30 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #img-profile {
+    height: 150px;
+    top: -moz-calc(50% - 75px);
+    top: -webkit-calc(50% - 75px);
+    top: -o-calc(50% - 75px);
+    top: calc(50% - 75px);
+    width: 150px;
+  }
+
+/* line 38 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #links-social {
+    bottom: -15px;
+    left: 0px;
+    margin: 0px auto;
+    right: 5px;
+  }
+
+/* line 45 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .bl-box h2 {
+    font-size: 16px;
+  }
+
+/* line 48 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .no-touch section:not(.bl-expand) .bl-box:hover h2 {
+    font-size: 21px;
+  }
+
+/* line 51 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .bl-content h2 {
+    font-size: 28px;
+  }
+
+/* line 54 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .bl-content h2 {
+    margin: 30px 0px 20px 0px;
+    position: initial;
+  }
+
+/* line 59 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .experience-location {
+    margin: 210px 0px 0px;
+  }
+}
+
+/* line 63 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 66 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #section0-content {
+    margin-top: 90px;
+  }
+
+/* line 69 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #img-profile {
+    height: 150px;
+    top: -moz-calc(50% - 75px);
+    top: -webkit-calc(50% - 75px);
+    top: -o-calc(50% - 75px);
+    top: calc(50% - 75px);
+    width: 150px;
+  }
+
+/* line 77 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  #links-social {
+    bottom: 120px;
+    left: 0px;
+    margin: 0px auto;
+  }
+
+/* line 83 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .bl-content h2 {
+    top: -140px;
+  }
+
+/* line 87 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .experience-location {
+    margin: 0px;
+  }
+
+/* line 90 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  p.experience-text {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 94 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* line 96 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .example {
+    font-size: 14px;
+  }
+}
+
+/* line 100 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* line 102 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .example {
+    font-size: 14px;
+  }
+}
+
+/* line 106 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+@media (min-width: 1200px) {
+
+/* line 108 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+  .example {
+    font-size: 14px;
+  }
+}
