@@ -110,16 +110,19 @@
 	width 100%
 
 .bl-box h2
-	font-size 32px
+	border 1px solid $white-hex
+	border-radius 4px
+	font-size 26px
 	font-weight 300
 	margin 0px
+	padding 15px
 	text-align center
-	width 100%
+	width auto
 	text-shadow $section-h2-text-shadow 0px 2px
 	transition all 0.2s ease-in-out
 
 .bl-main > section .bl-icon-close
-	color $grey-dark-hex
+	color $white-hex
 	float left
 	font-size 14px
 	height 45px
@@ -132,7 +135,7 @@
 	z-index 100
 
 .bl-main > section .bl-icon-close i
-	color $grey-dark-hex
+	color $white-hex
 	font-size 14px
 	margin-right 5px
 
@@ -154,6 +157,7 @@ div.bl-panel-items > div > div
 	font-size 18px
 	font-weight 300
 	margin 0px auto
+	min-height 960px
 
 .bl-content h2
 	font-size 64px
@@ -166,7 +170,6 @@ div.bl-panel-items > div > div
 	top -250px
 
 .bl-content .container
-	background-color #333
 	margin-top 410px
 	padding 15px
 
@@ -184,12 +187,13 @@ div.bl-panel-items > div > div
 	height calc(100% + 45px)
 
 .featured-nav
-	background-color rgba(255,255,255,0.86)
+	background-color $grey-dark-hex
 	height 0px
 	opacity 0
 	position absolute
 	top 0
 	width 100%
+	z-index 2
 
 .featured-nav-show
 	height 45px
@@ -224,7 +228,8 @@ section.bl-expand .bl-box
 	transition opacity 0s linear
 
 .no-touch section:not(.bl-expand) .bl-box:hover h2
-	font-size 36px
+	font-size 28px
+	background rgba(255,255,255,0.30)
 
 .bl-content,
 .bl-icon-close
