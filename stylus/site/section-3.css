@@ -9,12 +9,11 @@
   border: 1px solid $white-hex;
   border-radius: 4px;
   margin-top: 60px;
-  min-height: 475px;
   opacity: 0;
   width: 100%;
 }
 
-/* line 14 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 13 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
 .skill-bucket-icon {
   border: 1px solid $white-hex;
   border-radius: 82.5px;
@@ -28,7 +27,7 @@
   width: 165px;
 }
 
-/* line 26 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 25 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
 .skill-name {
   font-size: 21px;
   font-weight: 500;
@@ -38,15 +37,16 @@
   width: 100%;
 }
 
-/* line 34 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 33 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
 .skills-list {
   background-color: $grey-dark-hex;
   border-radius: 0px 0px 4px 4px;
   border-top: 1px solid $white-hex;
   bottom: 1px;
+  margin-top: 45px;
   padding: 15px 0px;
-  position: absolute;
-  width: calc(100% - 1px);
+  position: relative;
+  width: 100%;
 }
 
 /* line 43 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
