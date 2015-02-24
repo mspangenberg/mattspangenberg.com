@@ -35,6 +35,8 @@
 	background-image url($sectionfirst-child-bg-url)
 	border-bottom 1px solid $white-hex
 	border-right 1px solid $white-hex
+	-webkit-filter grayscale(1)
+	filter grayscale(1)
 	left 0px
 	top 0px
 	transition all 0.3s linear
@@ -44,6 +46,8 @@
 	background-image url($sectionnth-child-two-bg-url)
 	border-bottom 1px solid $white-hex
 	border-left 1px solid $white-hex
+	-webkit-filter grayscale(1)
+	filter grayscale(1)
 	left 50%
 	top 0px
 	transition all 0.3s linear
@@ -53,6 +57,8 @@
 	background-image url($sectionnth-child-three-bg-url)
 	border-right 1px solid $white-hex
 	border-top 1px solid $white-hex
+	-webkit-filter grayscale(1)
+	filter grayscale(1)
 	left 0px
 	top 50%
 	transition all 0.3s linear
@@ -62,9 +68,18 @@
 	background-image url($sectionnth-child-four-bg-url)
 	border-left 1px solid $white-hex
 	border-top 1px solid $white-hex
+	-webkit-filter grayscale(1)
+	filter grayscale(1)
 	left 50%
 	top 50%
 	transition all 0.3s linear
+
+.bl-main > section:first-child:hover,
+.bl-main > section:nth-child(2):hover,
+.bl-main > section:nth-child(3):hover,
+.bl-main > section:nth-child(4):hover
+	-webkit-filter none
+	filter none
 
 .bl-box
 	-moz-box-align center

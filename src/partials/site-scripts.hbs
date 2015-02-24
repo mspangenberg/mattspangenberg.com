@@ -67,6 +67,8 @@
 			'slidesNavigation': true,
 			'resize': false,
 			'paddingTop': '45px',
+			'loopBottom': true,
+			'recordHistory': false,
 
 			'afterRender': function(){
 			},
@@ -83,11 +85,19 @@
 
 				// Experience Section 3 Animations
 				if(index == 3){
-					// $('#iphone2').addClass('active');
 					$('.experience-timeline').removeClass('fadeOutRight');
 					$('.experience-container').removeClass('fadeOutDown');
 					$('.experience-timeline').addClass('animated fadeInRight');
 					$('.experience-container').addClass('animated fadeInUp');
+				}
+
+				if(index == 4){
+					$('#skill-bucket-1').removeClass('fadeOutLeft');
+					$('#skill-bucket-2').removeClass('fadeOutDown');
+					$('#skill-bucket-3').removeClass('fadeOutRight');
+					$('#skill-bucket-1').addClass('animated fadeInLeft');
+					$('#skill-bucket-2').addClass('animated fadeInUp');
+					$('#skill-bucket-3').addClass('animated fadeInRight');
 				}
 
 			},
@@ -128,7 +138,14 @@
 					$('.experience-container').addClass('fadeOutDown');
 				}
 
-				// $('#iphone2').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
+				if(index == 4){
+					$('#skill-bucket-1').removeClass('fadeInLeft');
+					$('#skill-bucket-2').removeClass('fadeInUp');
+					$('#skill-bucket-3').removeClass('fadeInRight');
+					$('#skill-bucket-1').addClass('animated fadeOutLeft');
+					$('#skill-bucket-2').addClass('animated fadeOutDown');
+					$('#skill-bucket-3').addClass('animated fadeOutRight');
+				}
 
 			},
 
@@ -163,6 +180,11 @@
 
 		}
 		onResize();
+
+		// Hide Expanded Menu On Click for XS & MS
+		$('.nav-link').click(function(){
+			$('#bs-example-navbar-collapse-1').removeClass('in');
+		});
 
 		// Block Click Hides Nav Bar & Disables FullPage Scrolling
 		$(".bl-box").click(function(e) {
