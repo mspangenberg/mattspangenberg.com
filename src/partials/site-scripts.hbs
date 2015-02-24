@@ -31,9 +31,10 @@
         }
 
         function handleLoadComplete() {
-            $('#loader').addClass('animated fadeOut hide');
+            $('#loader').addClass('animated fadeOut loader-shrink');
             $('#fullpage').addClass('show');
             $.fn.fullpage.setAllowScrolling(true);
+            $.fn.fullpage.moveTo(1);
         }
     });
 </script>
@@ -177,6 +178,16 @@
 			$(".bl-content .container").removeClass("animated fadeInUp");
 		});
 
+		$('.timestamp-next').click(function(e){
+			e.preventDefault();
+			$.fn.fullpage.moveSlideRight();
+		});
+
+		$('.timestamp-loop').click(function(e){
+			e.preventDefault();
+			$.fn.fullpage.moveSlideRight();
+		});
+
 	});
 </script>
 
@@ -191,6 +202,12 @@
 <script>
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-9745078-1']);
+
+	// ===================
+	// For Testing Locally
+	// ===================
+	_gaq.push(['_setDomainName', 'none']);
+	//
 	_gaq.push(['_trackPageview']);
 
 	(function() {

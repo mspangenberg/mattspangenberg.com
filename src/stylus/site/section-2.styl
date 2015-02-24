@@ -16,6 +16,61 @@
 
 .experience-timeline
 	opacity 0
+	position relative
+	z-index 3
+	transition all .3s linear
+
+.timestamp-next:hover
+	font-size 0px
+
+.timestamp-next span
+	display none
+	float left
+	font-size 28px
+	left -moz-calc(50% - 5px)
+	left -webkit-calc(50% - 5px)
+	left -o-calc(50% - 5px)
+	left calc(50% - 5px)
+	margin 0px auto
+	opacity 0
+	position relative
+	top -moz-calc(50% - 14px)
+	top -webkit-calc(50% - 14px)
+	top -o-calc(50% - 14px)
+	top calc(50% - 14px)
+	transition all .15s linear
+	visibility hidden
+
+.timestamp-next:hover span
+	display block
+	opacity 1
+	visibility visible
+
+.timestamp-loop:hover
+	font-size 0px
+
+.timestamp-loop span
+	display none
+	float left
+	font-size 18px
+	left -moz-calc(50% - 7px)
+	left -webkit-calc(50% - 7px)
+	left -o-calc(50% - 7px)
+	left calc(50% - 7px)
+	margin 0px auto
+	opacity 0
+	position relative
+	top -moz-calc(50% - 9px)
+	top -webkit-calc(50% - 9px)
+	top -o-calc(50% - 9px)
+	top calc(50% - 9px)
+	transition all .15s linear
+	visibility hidden
+
+.timestamp-loop:hover span
+	display block
+	opacity 1
+	visibility visible
 
 .timestamp
 	border 1px solid white
@@ -29,6 +84,7 @@
 	position relative
 	right 0px
 	text-transform uppercase
+	transition all .15s linear
 	width 90px
 
 .timeline-line-right
