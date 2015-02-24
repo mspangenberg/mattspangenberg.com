@@ -59,6 +59,11 @@
 }
 
 /* line 50 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+.navbar-content-hide {
+  display: none;
+}
+
+/* line 53 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar-brand {
   float: left;
   font-size: 14px;
@@ -67,25 +72,25 @@
   padding: 0px 15px;
 }
 
-/* line 57 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 60 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar #menu li a {
   color: $nav-links;
 }
 
-/* line 60 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 63 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar-default .navbar-nav>.active>a {
   background-image: none;
   box-shadow: none;
 }
 
-/* line 64 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 67 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   background-color: transparent;
 }
 
-/* line 67 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 70 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar-toggle {
   background-color: transparent;
   background-image: none;
@@ -97,24 +102,24 @@
   position: relative;
 }
 
-/* line 77 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 80 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .navbar-nav {
   margin: 0px -15px;
 }
 
-/* line 80 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 83 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .collapsing,
 .navbar-collapse.in {
   background-color: $nav-dropdown;
 }
 
-/* line 84 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 87 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 .collapsing #menu li a,
 .navbar-collapse.in #menu li a {
   margin-top: 10px;
 }
 
-/* line 88 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 91 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li {
   display: inline-block;
   height: 45px;
@@ -122,39 +127,39 @@
   overflow: hidden;
 }
 
-/* line 94 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 97 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li.active {
   border-bottom: 1px solid $nav-active-color;
 }
 
-/* line 97 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 100 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li a {
   font-size: 14px;
   text-decoration: none;
 }
 
-/* line 101 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 104 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li a:hover {
   color: $nav-hover-color;
 }
 
-/* line 104 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 107 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li.active a:hover {
   color: $nav-active-hover-color;
 }
 
-/* line 107 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 110 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li:hover {
   border-bottom: 1px solid $nav-hover-color;
 }
 
-/* line 110 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 113 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li a,
 #menu li.active a {
   display: block;
 }
 
-/* line 114 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
+/* line 117 : /Users/mspangenberg/github/portfolio/src/stylus/site/menu.styl */
 #menu li.active a {
   color: $nav-active-color;
 }
