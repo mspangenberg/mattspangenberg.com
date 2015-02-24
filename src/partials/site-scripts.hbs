@@ -192,10 +192,12 @@
 			$.fn.fullpage.setAllowScrolling(false);
 			$(".navbar, #nav-background").removeClass("navbar-visible nav-background-visible");
 			$(".bl-content .container").addClass("animated fadeInUp");
+			$(".featured-nav").addClass("featured-nav-show");
 		});
 		$(".bl-section-close").click(function(e) {
 			e.preventDefault();
 			$.fn.fullpage.setAllowScrolling(true);
+			$(".featured-nav").removeClass("featured-nav-show");
 			$(".navbar, #nav-background").addClass("navbar-visible nav-background-visible");
 			$(".bl-content .container").removeClass("animated fadeInUp");
 		});
