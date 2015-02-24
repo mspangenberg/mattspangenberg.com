@@ -181,28 +181,32 @@ module.exports = function (grunt) {
       				// Replace Paths for GitHub Pages in Index and Stylus Files
       				'<%= settings.dir.dist %>/': [
       					'<%= settings.dir.dist %>/**/index.html',
-      					'<%= settings.dir.dist %>/stylus/*.css'
+      			//		'<%= settings.dir.dist %>/stylus/*.css'
       					],
     			},
     			options: {
       				replacements: [{
-        				pattern: /stylus/ig,
-        				replacement: 'mattspangenberg.com/stylus'
-      				}, {
-        				pattern: /vendor/ig,
-        				replacement: 'mattspangenberg.com/vendor'
-      				}, {
-        				pattern: /\"\/js\//ig,
-        				replacement: '"/mattspangenberg.com/js/'
-      				}, {
-        				pattern: 'href="/"',
-        				replacement: 'href=\"/mattspangenberg.com"'
-      				}, {
-        				pattern: /pages/ig,
-        				replacement: 'mattspangenberg.com/pages'
-      				}, {
-		         		pattern: /url\(\"\/img/ig,
-		         		replacement: 'url("/mattspangenberg.com/img'
+        		// 		pattern: /stylus/ig,
+        		// 		replacement: 'mattspangenberg.com/stylus'
+      				// }, {
+        		// 		pattern: /vendor/ig,
+        		// 		replacement: 'mattspangenberg.com/vendor'
+      				// }, {
+        		// 		pattern: /\"\/js\//ig,
+        		// 		replacement: '"/mattspangenberg.com/js/'
+      				// }, {
+        		// 		pattern: 'href="/"',
+        		// 		replacement: 'href=\"/mattspangenberg.com"'
+      				// }, {
+        		// 		pattern: /pages/ig,
+        		// 		replacement: 'mattspangenberg.com/pages'
+      				// }, {
+		        //  		pattern: /url\(\"\/img/ig,
+		        //  		replacement: 'url("/mattspangenberg.com/img'
+		       	// 	},
+		       		// {
+		         		pattern: /src\:\"\/img/ig,
+		         		replacement: 'src:"/mattspangenberg.com/img'
 		       		}]
     			}
   			}
@@ -353,7 +357,7 @@ module.exports = function (grunt) {
 	]);
 
 	grunt.registerTask('deploy', [
-		// 'string-replace',
+		'string-replace',
 		'gh-pages',
 		'clean:all',
 	]);
