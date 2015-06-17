@@ -1,16 +1,16 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .fp-controlArrow {
   display: none;
   opacity: 0;
   visibility: hidden;
 }
 
-/* line 10 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 10 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-container {
   opacity: 0;
   top: -moz-calc(50% - 400px);
@@ -19,7 +19,7 @@
   top: calc(50% - 400px);
 }
 
-/* line 17 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 17 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-timeline {
   opacity: 0;
   position: relative;
@@ -28,12 +28,12 @@
   z-index: 3;
 }
 
-/* line 24 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 24 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp-next:hover {
   font-size: 0px;
 }
 
-/* line 27 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 27 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp-next span {
   display: none;
   float: left;
@@ -53,19 +53,19 @@
   visibility: hidden;
 }
 
-/* line 45 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 45 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp-next:hover span {
   display: block;
   opacity: 1;
   visibility: visible;
 }
 
-/* line 50 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 50 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp-loop:hover {
   font-size: 0px;
 }
 
-/* line 53 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 53 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp-loop span {
   display: none;
   float: left;
@@ -85,14 +85,14 @@
   visibility: hidden;
 }
 
-/* line 71 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 71 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp-loop:hover span {
   display: block;
   opacity: 1;
   visibility: visible;
 }
 
-/* line 76 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 76 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timestamp {
   border: 1px solid #fff;
   border-radius: 45px;
@@ -109,7 +109,7 @@
   width: 90px;
 }
 
-/* line 91 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 91 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timeline-line-right {
   background-color: #fff;
   float: right;
@@ -123,7 +123,7 @@
   width: calc(50% - 45px);
 }
 
-/* line 103 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 103 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .timeline-line-left {
   background-color: #fff;
   float: left;
@@ -137,60 +137,60 @@
   width: calc(50% - 45px);
 }
 
-/* line 115 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 115 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-location {
   font-size: 36px;
   font-weight: 300;
   margin: 120px 0px 0px;
 }
 
-/* line 120 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 120 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-job {
   font-size: 14px;
   font-weight: 500;
   margin: 10px 0px 45px;
 }
 
-/* line 125 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 125 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-header {
   font-size: 16px;
   font-weight: 500;
   margin: 0px 0px 5px;
 }
 
-/* line 130 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 130 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-text {
   font-size: 16px;
   font-weight: 300;
   margin: 0px;
 }
 
-/* line 135 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 135 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 .experience-duties > li {
   float: none;
 }
 
-/* line 138 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 138 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 #slide-one {
   background: url("../img/su.svg") no-repeat center -45px;
   background-color: #eb4924;
 }
 
-/* line 142 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 142 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 #slide-two {
   background: url("../img/intrinsik-media.svg") no-repeat bottom right;
   background-color: #5c6f7c;
   background-size: 150% 150%;
 }
 
-/* line 147 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 147 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 #slide-three {
   background: url("../img/jwt.svg") no-repeat center -205px;
   background-color: #161c45;
   background-size: 120% 120%;
 }
 
-/* line 152 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-2.styl */
+/* line 152 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-2.styl */
 #slide-four {
   background: url("../img/luice-design.svg") no-repeat center -165px;
   background-color: #af1117;

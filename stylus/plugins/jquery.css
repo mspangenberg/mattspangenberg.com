@@ -1,9 +1,9 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 3159 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 3159 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 /**
  * fullPage 2.4.3
  * https://github.com/alvarotrigo/fullPage.js
@@ -12,7 +12,7 @@
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 
-/* line 8 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 8 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 html,
 body {
   margin: 0;
@@ -22,7 +22,7 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #superContainer {
   height: 100%;
   position: relative;
@@ -32,7 +32,7 @@ body {
   touch-action: none;
 }
 
-/* line 26 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 26 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-section {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -42,19 +42,19 @@ body {
   box-sizing: border-box;
 }
 
-/* line 32 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 32 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slide {
   float: left;
 }
 
-/* line 35 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 35 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slide,
 .fp-slidesContainer {
   height: 100%;
   display: block;
 }
 
-/* line 39 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 39 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slides {
   z-index: 1;
   height: 100%;
@@ -65,14 +65,14 @@ body {
   transition: all 0.3s ease-out;
 }
 
-/* line 47 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 47 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-section.fp-table,
 .fp-slide.fp-table {
   display: table;
   width: 100%;
 }
 
-/* line 51 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 51 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-tableCell {
   display: table-cell;
   vertical-align: middle;
@@ -80,13 +80,13 @@ body {
   height: 100%;
 }
 
-/* line 57 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 57 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slidesContainer {
   float: left;
   position: relative;
 }
 
-/* line 61 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 61 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-controlArrow {
   position: absolute;
   z-index: 4;
@@ -98,7 +98,7 @@ body {
   margin-top: -38px;
 }
 
-/* line 71 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 71 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-controlArrow.fp-prev {
   left: 15px;
   width: 0;
@@ -106,25 +106,25 @@ body {
   border-color: transparent #fff transparent transparent;
 }
 
-/* line 77 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 77 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-controlArrow.fp-next {
   right: 15px;
   border-width: 38.5px 0 38.5px 34px;
   border-color: transparent transparent transparent #fff;
 }
 
-/* line 82 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 82 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-scrollable {
   overflow: scroll;
 }
 
-/* line 86 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 86 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-notransition {
   -webkit-transition: none !important;
   transition: none !important;
 }
 
-/* line 90 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 90 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav {
   position: fixed;
   z-index: 100;
@@ -133,17 +133,17 @@ body {
   opacity: 1;
 }
 
-/* line 97 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 97 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav.right {
   right: 17px;
 }
 
-/* line 100 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 100 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav.left {
   left: 17px;
 }
 
-/* line 103 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 103 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slidesNav {
   position: absolute;
   z-index: 4;
@@ -154,24 +154,24 @@ body {
   opacity: 1;
 }
 
-/* line 112 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 112 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slidesNav.bottom {
   bottom: 17px;
 }
 
-/* line 115 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 115 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slidesNav.top {
   top: 17px;
 }
 
-/* line 118 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 118 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav ul,
 .fp-slidesNav ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 123 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 123 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav li,
 .fp-slidesNav li {
   display: block;
@@ -181,12 +181,12 @@ body {
   position: relative;
 }
 
-/* line 131 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 131 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-slidesNav li {
   display: inline-block;
 }
 
-/* line 134 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 134 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav li a,
 .fp-slidesNav li a {
   display: block;
@@ -198,13 +198,13 @@ body {
   text-decoration: none;
 }
 
-/* line 144 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 144 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav li .active span,
 .fp-slidesNav .active span {
   background: #fff;
 }
 
-/* line 148 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 148 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #fp-nav span,
 .fp-slidesNav span {
   top: 2px;
@@ -218,7 +218,7 @@ body {
   z-index: 1;
 }
 
-/* line 160 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 160 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-tooltip {
   position: absolute;
   top: -2px;
@@ -229,17 +229,17 @@ body {
   max-width: 220px;
 }
 
-/* line 169 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 169 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-tooltip.right {
   right: 20px;
 }
 
-/* line 172 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 172 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 .fp-tooltip.left {
   left: 20px;
 }
 
-/* line 176 : /Users/mspangenberg/github/portfolio/src/stylus/plugins/jquery.fullPage.styl */
+/* line 176 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/plugins/jquery.fullPage.styl */
 #section1,
 #section2,
 #section3 {

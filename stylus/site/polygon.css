@@ -1,9 +1,9 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/polygon.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/polygon.styl */
 .polygon {
   height: 100%;
   position: absolute;
@@ -12,7 +12,7 @@
   z-index: 0;
 }
 
-/* line 12 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 12 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/polygon.styl */
 .overlay {
   height: 100%;
   left: 0;
@@ -22,7 +22,7 @@
   width: 100%;
 }
 
-/* line 20 : /Users/mspangenberg/github/portfolio/src/stylus/site/polygon.styl */
+/* line 20 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/polygon.styl */
 .noise {
   background-image: url("../img/noise.png");
   opacity: 0.15;

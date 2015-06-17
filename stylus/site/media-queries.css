@@ -1,43 +1,43 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 6 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 6 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
 @media (max-width: 479px) {
 
-/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 9 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #menu li {
     margin: 0px;
     width: 100%;
   }
 
-/* line 13 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 13 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #menu li.active {
     background-color: #ccc;
     border-bottom: 1px solid #333;
     border-top: 1px solid #333;
   }
 
-/* line 18 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 18 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .collapsing #menu li a,
   .navbar-collapse.in #menu li a {
     margin-top: 0px;
   }
 
-/* line 22 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 22 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #section-0-h1 {
     font-size: 24px;
     font-weight: 500;
   }
 
-/* line 26 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 26 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #section-0-p {
     font-size: 14px;
     font-weight: 500;
   }
 
-/* line 30 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 30 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #img-profile {
     height: 150px;
     top: -moz-calc(50% - 75px);
@@ -47,7 +47,7 @@
     width: 150px;
   }
 
-/* line 38 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 38 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #links-social {
     bottom: -15px;
     left: 0px;
@@ -55,17 +55,17 @@
     right: 5px;
   }
 
-/* line 45 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 45 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-box h2 {
     font-size: 16px;
   }
 
-/* line 48 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 48 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .no-touch section:not(.bl-expand) .bl-box:hover h2 {
     font-size: 21px;
   }
 
-/* line 51 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 51 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-main > section:first-child,
   .bl-main > section:nth-child(2),
   .bl-main > section:nth-child(3),
@@ -74,43 +74,43 @@
     filter: none;
   }
 
-/* line 58 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 58 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-content .container {
     margin-top: 60px;
   }
 
-/* line 61 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 61 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-content h2 {
     font-size: 28px;
   }
 
-/* line 64 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 64 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-content h2 {
     margin: 30px 0px 20px 0px;
     position: initial;
   }
 
-/* line 69 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 69 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .experience-location {
     margin: 210px 0px 0px;
   }
 
-/* line 73 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 73 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skill-bucket {
     margin-top: 15px;
   }
 
-/* line 76 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 76 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skill-bucket-icon {
     display: none;
   }
 
-/* line 79 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 79 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skill-name {
     margin: 5px 0px;
   }
 
-/* line 82 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 82 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skills-list {
     background-color: transparent;
     border: none;
@@ -118,7 +118,7 @@
     padding: 0px;
   }
 
-/* line 88 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 88 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skills-list-item {
     font-size: 12px;
     height: 20px;
@@ -126,15 +126,15 @@
   }
 }
 
-/* line 94 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 94 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
 @media (min-width: 480px) and (max-width: 767px) {
 
-/* line 97 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 97 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #section0-content {
     margin-top: 90px;
   }
 
-/* line 100 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 100 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #img-profile {
     height: 150px;
     top: -moz-calc(50% - 75px);
@@ -144,19 +144,19 @@
     width: 150px;
   }
 
-/* line 108 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 108 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   #links-social {
     bottom: 120px;
     left: 0px;
     margin: 0px auto;
   }
 
-/* line 115 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 115 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-content .container {
     margin-top: 195px;
   }
 
-/* line 118 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 118 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-main > section:first-child,
   .bl-main > section:nth-child(2),
   .bl-main > section:nth-child(3),
@@ -165,69 +165,69 @@
     filter: none;
   }
 
-/* line 125 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 125 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .bl-content h2 {
     top: -140px;
   }
 
-/* line 129 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 129 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .experience-location {
     margin-top: 150px;
   }
 
-/* line 132 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 132 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   p.experience-text {
     margin-bottom: 30px;
   }
 
-/* line 136 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 136 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skill-bucket {
     margin-top: 30px;
   }
 
-/* line 139 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 139 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skill-bucket-icon {
     display: none;
   }
 
-/* line 142 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 142 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skill-name {
     margin: 15px 0px;
   }
 
-/* line 145 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 145 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skills-list {
     margin-top: 0px;
   }
 
-/* line 148 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 148 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .skills-list-item {
     font-size: 12px;
   }
 }
 
-/* line 152 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 152 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
 @media (min-width: 768px) and (max-width: 991px) {
 
-/* line 154 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 154 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .example {
     font-size: 14px;
   }
 }
 
-/* line 158 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 158 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-/* line 160 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 160 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .example {
     font-size: 14px;
   }
 }
 
-/* line 164 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 164 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
 @media (min-width: 1200px) {
 
-/* line 166 : /Users/mspangenberg/github/portfolio/src/stylus/site/media-queries.styl */
+/* line 166 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/media-queries.styl */
   .example {
     font-size: 14px;
   }

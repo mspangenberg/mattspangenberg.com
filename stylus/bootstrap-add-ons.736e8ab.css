@@ -1,7 +1,287 @@
 
-/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons.styl */
 
 /* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
+
+/* line 287 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
+
+/* line 14 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/index.styl */
+
+/* line 14 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/index.styl */
+
+/* line 14 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/border.styl */
+
+/* line 11 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/border.styl */
+
+/* line 11 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 29 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/flex.styl */
+
+/* line 197 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/flex.styl */
+
+/* line 91 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 91 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 91 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 8 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 8 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/image.styl */
+
+/* line 26 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/image.styl */
+
+/* line 26 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 21 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 3 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/positions.styl */
+
+/* line 67 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/positions.styl */
+
+/* line 3 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+
+/* line 79 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+
+/* line 6 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 6 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 6 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 13 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 13 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 10 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 10 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 10 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+/* line 3 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+/* line undefined : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 91 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 91 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 578 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 578 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/size.styl */
+
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-left-not-xs,
+.text-left-not-ms,
+.text-left-not-sm,
+.text-left-not-md,
+.text-left-not-lg {
+  text-align: left;
+}
+
+/* line 8 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-center-not-xs,
+.text-center-not-ms,
+.text-center-not-sm,
+.text-center-not-md,
+.text-center-not-lg {
+  text-align: center;
+}
+
+/* line 11 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-right-not-xs,
+.text-right-not-ms,
+.text-right-not-sm,
+.text-right-not-md,
+.text-right-not-lg {
+  text-align: right;
+}
+
+/* line 14 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+.text-justify-not-xs,
+.text-justify-not-ms,
+.text-justify-not-sm,
+.text-justify-not-md,
+.text-justify-not-lg {
+  text-align: justify;
+}
+
+/* line 18 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (max-width: 479px) {
+
+/* line 19 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-xs,
+  .text-center-not-xs,
+  .text-right-not-xs,
+  .text-justify-not-xs {
+    text-align: inherit;
+  }
+
+/* line 22 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-xs {
+    text-align: left;
+  }
+
+/* line 25 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-xs {
+    text-align: center;
+  }
+
+/* line 28 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-xs {
+    text-align: right;
+  }
+
+/* line 31 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-xs {
+    text-align: justify;
+  }
+}
+
+/* line 35 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 480px) and (max-width: 767px) {
+
+/* line 36 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-ms,
+  .text-center-not-ms,
+  .text-right-not-ms,
+  .text-justify-not-ms {
+    text-align: inherit;
+  }
+
+/* line 39 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-ms {
+    text-align: left;
+  }
+
+/* line 42 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-ms {
+    text-align: center;
+  }
+
+/* line 45 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-ms {
+    text-align: right;
+  }
+
+/* line 48 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-ms {
+    text-align: justify;
+  }
+}
+
+/* line 52 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* line 53 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-sm,
+  .text-center-not-sm,
+  .text-right-not-sm,
+  .text-justify-not-sm {
+    text-align: inherit;
+  }
+
+/* line 56 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-sm {
+    text-align: left;
+  }
+
+/* line 59 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-sm {
+    text-align: center;
+  }
+
+/* line 62 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-sm {
+    text-align: right;
+  }
+
+/* line 65 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-sm {
+    text-align: justify;
+  }
+}
+
+/* line 69 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* line 70 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-md,
+  .text-center-not-md,
+  .text-right-not-md,
+  .text-justify-not-md {
+    text-align: inherit;
+  }
+
+/* line 73 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-md {
+    text-align: left;
+  }
+
+/* line 76 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-md {
+    text-align: center;
+  }
+
+/* line 79 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-md {
+    text-align: right;
+  }
+
+/* line 82 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-md {
+    text-align: justify;
+  }
+}
+
+/* line 86 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+@media (min-width: 1200px) {
+
+/* line 87 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-not-lg,
+  .text-center-not-lg,
+  .text-right-not-lg,
+  .text-justify-not-lg {
+    text-align: inherit;
+  }
+
+/* line 90 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-left-lg {
+    text-align: left;
+  }
+
+/* line 93 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-center-lg {
+    text-align: center;
+  }
+
+/* line 96 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-right-lg {
+    text-align: right;
+  }
+
+/* line 99 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-grid-text-alignments.styl */
+  .text-justify-lg {
+    text-align: justify;
+  }
+}
 
 /* line 6 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/bootstrap-add-ons/bootstrap-ms-extension.styl */
 .col-ms-1,

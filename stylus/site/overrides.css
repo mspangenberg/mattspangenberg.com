@@ -1,33 +1,33 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .container {
   position: relative;
   z-index: 1;
 }
 
-/* line 9 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 9 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 a:hover,
 a:focus {
   color: $grey-dark-hex;
   text-decoration: none;
 }
 
-/* line 14 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 14 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 18 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 18 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 li {
   list-style: none;
 }
 
-/* line 21 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 21 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .no-style {
   background-color: transparent !important;
   background-image: none !important;
@@ -39,54 +39,54 @@ li {
   -webkit-box-shadow: none !important;
 }
 
-/* line 31 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 31 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .no-padding {
   padding: 0px !important;
 }
 
-/* line 34 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 34 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .no-margin {
   margin: 0px !important;
 }
 
-/* line 37 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 37 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .position-relative {
   position: relative;
 }
 
-/* line 40 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 40 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .position-absolute {
   position: absolute;
 }
 
-/* line 43 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 43 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .full-height {
   height: 100%;
 }
 
-/* line 46 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 46 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .full-width {
   width: 100%;
 }
 
-/* line 49 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 49 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .full-screen {
   height: 100%;
   width: 100%;
 }
 
-/* line 53 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 53 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .verticle-center {
   position: absolute;
   top: 50%;
 }
 
-/* line 57 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 57 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .transition-all {
   transition: all 0.4s ease;
 }
 
-/* line 60 : /Users/mspangenberg/github/portfolio/src/stylus/site/overrides.styl */
+/* line 60 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/overrides.styl */
 .transition-background {
   transition: background 0.4s ease;
 }

@@ -1,9 +1,9 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/loader.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/loader.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 4 : /Users/mspangenberg/github/portfolio/src/stylus/loader.styl */
+/* line 4 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/loader.styl */
 #loader {
   background-color: #fff;
   height: 100%;
@@ -16,13 +16,13 @@
   z-index: 1002;
 }
 
-/* line 15 : /Users/mspangenberg/github/portfolio/src/stylus/loader.styl */
+/* line 15 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/loader.styl */
 .loader-shrink {
   opacity: 0 !important;
   z-index: -1 !important;
 }
 
-/* line 19 : /Users/mspangenberg/github/portfolio/src/stylus/loader.styl */
+/* line 19 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/loader.styl */
 #loader-headline {
   color: #333;
   font-size: 12px;
@@ -34,7 +34,7 @@
   top: calc(50% - 45px);
 }
 
-/* line 29 : /Users/mspangenberg/github/portfolio/src/stylus/loader.styl */
+/* line 29 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/loader.styl */
 #loader-cont {
   height: 2px;
   left: 0px;
@@ -48,7 +48,7 @@
   width: 60%;
 }
 
-/* line 41 : /Users/mspangenberg/github/portfolio/src/stylus/loader.styl */
+/* line 41 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/loader.styl */
 .loader-bar {
   background: #333;
   height: 100%;

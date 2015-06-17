@@ -1,14 +1,14 @@
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 
-/* line 1 : /Users/mspangenberg/github/portfolio/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /Users/MSpangenberg/Development/mattspangenberg.com/node_modules/stylus/lib/functions/index.styl */
 
-/* line 5 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 5 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 #section3 > .container {
   top: 45px;
 }
 
-/* line 8 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 8 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 .skill-bucket {
   background-color: rgba(255,255,255,0.15);
   border: 1px solid $white-hex;
@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-/* line 16 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 16 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 .skill-bucket-icon {
   border: 1px solid $white-hex;
   border-radius: 82.5px;
@@ -32,7 +32,7 @@
   width: 165px;
 }
 
-/* line 28 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 28 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 .skill-name {
   font-size: 21px;
   font-weight: 500;
@@ -42,7 +42,7 @@
   width: 100%;
 }
 
-/* line 36 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 36 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 .skills-list {
   background-color: $grey-dark-hex;
   border-radius: 0px 0px 4px 4px;
@@ -54,7 +54,7 @@
   width: 100%;
 }
 
-/* line 46 : /Users/mspangenberg/github/portfolio/src/stylus/site/section-3.styl */
+/* line 46 : /Users/MSpangenberg/Development/mattspangenberg.com/src/stylus/site/section-3.styl */
 .skills-list-item {
   font-size: 14px;
   font-weight: 300;
