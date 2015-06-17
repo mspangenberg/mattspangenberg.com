@@ -206,7 +206,7 @@ module.exports = function (grunt) {
 		       	// 	},
 		       		// {
 		         		pattern: /src\:\"\/img/ig,
-		         		replacement: 'src:"/mattspangenberg.com/img'
+		         		replacement: 'src:"/img'
 		       		}]
     			}
   			}
@@ -357,7 +357,7 @@ module.exports = function (grunt) {
 	]);
 
 	grunt.registerTask('deploy', [
-		'string-replace',
+		// 'string-replace',
 		'gh-pages',
 		'clean:all',
 	]);
